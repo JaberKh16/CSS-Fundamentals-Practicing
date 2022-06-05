@@ -1,0 +1,16 @@
+/*
+Property:
+    word-break: normal, break-all, keep-all
+*/
+h2{
+    border: 1px solid #bbb;
+    color: #43f44f;
+    text-decoration: underline;
+}
+
+p{
+    border: 0px;
+    margin: 0px;
+    word-break: break-all;
+}
+

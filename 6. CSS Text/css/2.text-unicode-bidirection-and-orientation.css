@@ -1,0 +1,15 @@
+.text-orientation{
+    writing-mode: vertical-rl;
+    border: 2px solid green;
+    direction:rtl;
+    text-orientation:sideways-right;
+}
+
+p{
+    /* 'border: inherit' to inherit its parent border property */
+    border: inherit;
+    color: #ffbf00;
+    /* 'unicode-bidi: bidi-override' to change the direction of the text content */
+    unicode-bidi:bidi-override;
+    
+}

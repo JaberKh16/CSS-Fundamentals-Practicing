@@ -1,0 +1,13 @@
+/*
+Property:
+    text-shadow: x-offset, y-offset, blur-radius, color
+here, x-offset, y-offset and blur-radius can have its value in Numerical 
+Value Format in Units(where units can be px, vh, em,... etc)
+And color can be in any color format ways.
+*/
+p{
+    color: blue;
+    /* 'text-shadow' property here taking multiple values with , separated
+        value for each of the shadow information.*/
+    text-shadow: 12px 12px 2px black, 25px 25px 2px blueviolet;
+}

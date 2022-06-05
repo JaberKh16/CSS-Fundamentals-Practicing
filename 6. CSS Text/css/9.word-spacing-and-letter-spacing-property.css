@@ -1,0 +1,20 @@
+/*Property:;
+    word-spacing: normal
+    letter-spacing: normal
+*/
+
+h2{
+    border: 1px solid #bbb;
+    color: #43f44f;
+    text-decoration: underline;
+}
+
+.word-spacing{
+    word-spacing: 10px;
+}
+
+.letter-spacing{
+    letter-spacing: 4px;
+}
+
+

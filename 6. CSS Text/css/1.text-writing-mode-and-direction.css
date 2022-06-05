@@ -1,0 +1,15 @@
+h1{
+    color: #aabbee;
+    text-decoration-color:forestgreen;
+    text-decoration-style: double;
+    text-decoration-line:underline;
+}
+
+p{
+    direction: rtl;
+}
+
+div{
+    border: 1px solid green;
+    writing-mode:vertical-rl;
+}

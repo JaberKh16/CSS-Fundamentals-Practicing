@@ -1,0 +1,20 @@
+/*
+Property:
+    text-transform: capitalize, lowercase, uppercase, none, inherit
+*/
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.none{
+    text-transform: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}

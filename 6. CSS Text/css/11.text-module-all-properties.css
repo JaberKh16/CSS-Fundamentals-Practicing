@@ -1,0 +1,174 @@
+/*
+    'text alignment' property has 4 values:
+
+        1. center
+        2. left
+        3. right
+        4. justify
+
+
+    When the (text-align) property is set to "justify", each line 
+    is stretched so that every line has equal width, and the left and 
+    right margins are straight.
+
+*/
+
+#talign
+{
+    color: blue;
+    text-align: center;
+}
+
+/*
+    'text-decoration' property has 4 values: 
+
+        1. none
+        2. overline
+        3. line through
+        4. underline
+    
+*/
+
+
+#tdecoration
+{
+    color: brown;
+    text-decoration: overline;
+    text-align: right;
+}
+
+/*
+    text-transform property has 4 values:
+        
+        1. full width
+        2. capitalize
+        3. uppercase
+        4. lowercase
+
+*/
+
+
+#ttransform
+{
+    color: violet;
+    text-align: end;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/*
+    'text-indent' property has 2 values:
+
+        1. inherit
+        2. set by px, cm, em, pt etc
+*/
+
+
+#tindentation
+{
+    color: darkgreen;
+    text-align: justify;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-indent: 50px;
+}
+
+/*
+    'letter-spacing' property has 3 values:
+        1. normal
+        2. inherit
+        3. set by px, pt, cm, em etc
+
+*/
+
+#tletterspacing
+{
+    color: chocolate;
+    text-align: left;
+    text-decoration: none;
+    text-transform: full-width;
+    text-indent: 50pt;
+    letter-spacing: 12px;
+}
+
+/*
+    'line-height' property has 3 values:
+        1. normal
+        2. inherit
+        3. set by px, pt, cm, em etc
+
+*/
+
+
+#tlineheight
+{
+    color: chartreuse;
+    text-align: justify-all;
+    text-decoration: inherit;
+    text-transform: lowercase;
+    text-indent: 2em;
+    letter-spacing: normal;
+    line-height: 50px;
+}
+
+/*
+    'text-direction' property has 3 values:
+        1. rtl
+        2. ltr
+        3. inherit
+
+*/
+
+
+#tdirection
+{
+    color: darkred;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-indent: 4em;
+    letter-spacing: 5px;
+    line-height: 2em;
+    direction: rtl;
+}
+
+/*
+    'word-spacing' property has 3 values:
+        1. normal
+        2. inherit
+        3. set by px, pt, cm, em etc
+
+*/
+
+#twordspacing
+{
+    color: darkslateblue;
+    text-decoration: underline;
+    text-indent: inherit;
+    letter-spacing: 6px;
+    direction: ltr;
+    word-spacing: 10px;
+}
+
+/*
+    'line-height' property has 1 values:
+        
+        1. set by px, pt, cm, em etc
+
+    the position of the horizontal shadow (3px), the position of the vertical shadow (2px) 
+    and the color of the shadow (black):
+*/
+
+
+#tshadow
+{
+    color: burlywood;
+    text-decoration: overline;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    direction: inherit;
+    word-spacing: 2em;
+    text-shadow: 3px 2px black; /* horizontal shadow ,vertical shadow , color */
+}
+
+
+

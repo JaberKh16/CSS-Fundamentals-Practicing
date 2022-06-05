@@ -1,0 +1,28 @@
+/*Property:;
+    text-align: left, center, right, justify
+    text-indent: Units Value(px, em, vh, percentage, ... etc)
+*/
+
+h2{
+    border: 1px solid #bbb;
+    color: #43f44f;
+    text-decoration: underline;
+}
+
+.center-aligned{
+    text-align: center;
+}
+
+.right-aligned{
+    text-align: right;
+}
+
+.justify-aligned{
+    border: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+
+.text-indented{
+    text-indent: 50px;
+}

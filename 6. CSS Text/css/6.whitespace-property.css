@@ -1,0 +1,24 @@
+section{
+    margin: 0px;
+    border: 0px;
+}
+.normal-affect{
+    white-space:normal;
+}
+
+.nowrap-affect{
+    white-space: nowrap;
+}
+
+.pre-affect{
+    white-space: pre;
+}
+
+.prewrap-affect{
+    white-space: pre-wrap;
+}
+
+
+.pre-line-affect{
+    white-space: pre-line;
+}
