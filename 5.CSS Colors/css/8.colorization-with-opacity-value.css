@@ -1,0 +1,14 @@
+body
+{
+    color:blue;
+}
+
+h1{
+    /* 'inhert' will inherit its parent tag color*/
+    opacity: inherit;
+}
+
+p{
+    /* 'Opacity' property value can be decimal point number 0.0 to 1.0 */
+    opacity: 0.5;
+}

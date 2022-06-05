@@ -1,0 +1,35 @@
+/*
+    Selectors used here are two types:
+        1) ID Selector      ==> use # to access id selector element.
+        2) Class Selector   ==> use . to access class selector element.
+*/
+
+#f1
+{
+    background-color: rgb(255, 0 , 0 );
+}
+
+#f2
+{
+    background-color: rgb(0, 0, 255);
+}
+
+.e3
+{
+    background-color:rgb(60, 179, 113);
+}
+
+.e4
+{
+    background-color:rgb(238, 130, 238);
+}
+
+.e5
+{
+    background-color:rgb(255, 165, 0);
+}
+
+.e6
+{
+    background-color:rgb(106, 90, 205);
+}

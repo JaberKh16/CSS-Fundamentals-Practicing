@@ -1,0 +1,6 @@
+/*
+    hsl(angle, percentage, percentage)
+*/
+p{
+    color:hsl(280, 50%, 40%)
+}
