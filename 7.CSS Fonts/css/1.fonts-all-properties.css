@@ -1,0 +1,68 @@
+/*
+Property:
+    font-family: "selected-font" alternate_generic_font;
+    here, "selected-font" needs to be provided which tells browser which fonts
+    to used when page loads. If browser dont support that specified font then 
+    'alternate-generic-font' gets into play.
+    
+*/
+#fontfamily
+{
+    color: aqua;
+    font-family: monospace;
+    
+}
+
+/*
+Property:
+    font-style: normal, italic, oblique;
+    here, 
+        1. normal   ; by default style format provided by each browser.
+        2. italic   ; to set font style to italic format.
+        3. oblique  ; to set font style to oblique which is kinda like italic but in 45 degree
+                    angular format. Most of the browser dont support that till now so feel free to
+                    change browser and see the effect.
+*/
+#fontstyle
+{
+    color: blue;
+    font-family: cursive;
+    font-style: italic;
+}
+
+/*
+Property:
+    font-size: Numeric_Value in Units(px, em, vh, percentage, ...etc);
+    Note: By default, Chrome has its fontsize 16px so anything above or below that will work. 
+*/
+#fontsize
+{
+    color: chartreuse;
+    font-family: fantasy;
+    font-size: 25px;
+    
+}
+
+/*
+Property:
+    font-weight: Numeric_Value in Units(px, em, vh, percentage, ...etc), bold, bolder;
+*/
+#fontweight
+{
+    color: chocolate;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/*
+Property:
+    font-variant: normal, small-caps;
+*/
+#fontvariant
+{
+    color: crimson;
+    font-family: serif;
+    font-size: 5em;
+    font-weight: lighter;
+    font-variant: small-caps;
+}

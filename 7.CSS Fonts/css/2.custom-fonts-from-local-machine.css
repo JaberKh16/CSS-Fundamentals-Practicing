@@ -1,0 +1,26 @@
+/*  
+Property: @font-face{
+            font-family: "custom-font-name";
+            src url ("path_of_that_file.ext")
+        }
+
+Now, select whichever selector will use this custom font with 
+font-family specified.
+*/
+@font-face {
+    font-family: "Ole-Regular";
+    src: url("../custom-fonts/Ole/Ole-Regular.ttf");
+}
+
+h3{
+    color: #3b3cdd;
+    font-family: "Ole-Regular";
+    font-size: 45px;
+    text-decoration: underline blue;
+}
+
+p{
+    color: green;
+    font-family: "Ole-Regular";
+    font-size: 35px;
+}
