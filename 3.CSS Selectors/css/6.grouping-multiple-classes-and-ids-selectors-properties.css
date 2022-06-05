@@ -1,0 +1,29 @@
+.quote-title{
+    color: blue;
+    text-decoration: underline blue;
+    font-size: 25px;
+}
+
+#quotes-ids{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+/* Grouping Multiple Classes Selectors */
+.first-quote, .second-quote, .third-quote, .four-quote{
+    color: #1f3b36;
+    border: 2px solid black;
+}
+
+/* Grouping Multiple IDs Selectors */
+#author-1, #author-2, #author-3, #author-4{
+    color:darkgreen;
+    font-style:italic;
+}
+
+.end-of-quotes{
+    color: blue;
+    text-align: center;
+    font-style:oblique;
+    font-family: cursive;
+}

@@ -1,0 +1,18 @@
+.first-para{
+    color: darkgreen;
+    text-decoration: underline black;
+}
+.second-para{
+    
+    text-align: center;
+    color: red;
+    border: 2px solid purple;
+}
+
+.third-para{
+
+    text-align: end;
+    border: 2px solid blue;
+    color: chartreuse;
+
+}

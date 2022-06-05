@@ -1,0 +1,19 @@
+.first-para{
+    color: green;
+}
+
+.second-para{
+    
+    text-align: center;
+    color: darkred;
+    
+}
+
+.third-para{
+    color: gray;
+    border: 3px dashed blue;
+}
+
+.large{
+    font-size: 300%;
+}
