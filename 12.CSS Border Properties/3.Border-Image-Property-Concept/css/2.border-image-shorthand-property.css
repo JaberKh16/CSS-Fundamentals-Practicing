@@ -1,0 +1,10 @@
+*{
+    margin: 30px;
+}
+
+.border-image-shorthand-prop{
+    width:300px;
+    height:300px;
+    border:22px solid;
+    border-image: url('../img/image-1.jpg') 4 round;
+}

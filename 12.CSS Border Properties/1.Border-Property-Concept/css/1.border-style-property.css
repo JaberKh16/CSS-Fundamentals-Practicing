@@ -1,0 +1,80 @@
+p{
+    background-color: burlywood;
+    font-style: oblique;
+}
+
+
+.dotted-type{
+    font-family: fantasy;
+    font-size: 25px;
+    line-height:48px; 
+    border: 3px solid blue;
+    border-style: dotted;
+}
+
+.dashed-type{
+    font-family: monospace;
+    font-size: 18px;
+    line-height: inherit;
+    border: 3px dashed #00000075;
+    border-bottom-style: dashed;
+    border-style: dashed;
+}
+
+
+.double-type{
+    font-family: serif;
+    font-size: 16px;
+    border: 4px solid #ff005655;
+    border-style:double;
+    border-bottom-color: black;
+    border-right-style: dotted;
+}
+
+.groove-type{
+    font-family: serif;
+    font-size: 20px;
+    border-style:groove;
+    border-bottom-color: black;
+    border-right-style: dotted;
+}
+
+
+.ridge-type{
+    font-family: serif;
+    font-size: 32px;
+    border-style:ridge;
+    border-right-style: dotted;
+}
+
+.inset-type{
+    font-family: serif;
+    font-size: 20px;
+    border-style:inset;
+    border-right-style: dotted;
+}
+
+.outset-type{
+    font-family: serif;
+    font-size: 20px;
+    border-style:outset;
+    border-bottom-color: black;
+    border-right-style: dotted;
+}
+
+.none-type{
+    font-family: serif;
+    font-size: 20px;
+    border: 4px solid blue;
+    border-style:none;
+    border-right-style: dotted;
+}
+
+.hidden-type{
+    font-family: serif;
+    font-size: 20px;
+    border-style:hidden;
+    border-bottom-color: black;
+    border-right-style: dotted;
+}
+

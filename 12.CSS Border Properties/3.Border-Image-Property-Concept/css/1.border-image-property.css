@@ -1,0 +1,15 @@
+*{
+    margin: 30px;
+}
+
+.border-image-prop{
+    width: 200px;
+    height: 200px;
+    border: 22px solid blue;
+    /* border-image-source: url(https://picsum.photos/400/400) */
+    border-image-source: url("../img/image-1.jpg");
+    border-image-slice: 60% 20% 20% 40%;
+    border-image-width: 2;
+    border-image-repeat: space;
+    border-image-outset: 25px;
+}

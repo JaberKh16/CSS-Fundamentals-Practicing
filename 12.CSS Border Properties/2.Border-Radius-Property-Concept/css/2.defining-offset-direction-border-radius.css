@@ -1,0 +1,12 @@
+*{
+    margin: 30px;
+    padding: 10px;
+}
+
+.div-property-offset-direction{
+    height: 300px;
+    width: 300px;
+    background-color:blue;
+    border-top-left-radius: 100px 500px; /* changing x-offset=100px and y-offset=500px */
+    border-bottom-right-radius: 200px 300px; /* changing x-offser=200px and y-offset=300px */
+}

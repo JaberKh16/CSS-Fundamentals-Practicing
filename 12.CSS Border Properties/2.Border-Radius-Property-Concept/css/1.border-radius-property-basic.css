@@ -1,0 +1,14 @@
+*{
+    margin: 30px;
+    padding: 15px;
+}
+
+.div-property{
+    width:200px;
+    height:200px;
+    background-color:blue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;    
+}
