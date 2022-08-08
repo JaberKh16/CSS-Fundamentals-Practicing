@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.parent-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: coral;
+    /* position: static; static is by default behavior so nothing can be seen */
+}
+
+.child-box{
+    width: 500px;
+    height: 600px;
+    background-color:crimson;
+    border: 1px solid;
+    /* position: absolute; */
+    position: relative;
+    top: 55px;
+    left:20px;
+}
+
+.grand-child-box{
+    width: 100px;
+    height: 100px;
+    background-color:darkcyan;
+    border: 1px solid;
+    position: relative;
+}
+
+.grand-child-box:nth-child(2){
+    position: fixed;
+    top: 550px;
+    left: 200px;
+}
+
+.grand-child-box:nth-child(4){
+    position: fixed;
+    left: 400px;
+    top: 200px;
+}
+
+.grand-child-box:nth-child(1){
+    position: fixed;
+    bottom: 50px;
+}

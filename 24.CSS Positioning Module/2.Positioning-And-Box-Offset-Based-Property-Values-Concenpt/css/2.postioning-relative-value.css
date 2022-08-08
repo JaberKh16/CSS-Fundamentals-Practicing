@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.parent-box{
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    position: static; /* static is by default behavior so nothing can be seen */
+}
+
+.child-box{
+    width: 100px;
+    height: 100px;
+    background-color:crimson;
+    padding: 10px;
+    margin:5px;
+    border: 1px solid;
+    position: relative;
+    top: 5px;
+    left:150px;
+}

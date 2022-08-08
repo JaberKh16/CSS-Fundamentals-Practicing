@@ -1,0 +1,48 @@
+<!--
+    CSS Clear Property Concept
+    ==========================
+    CSS Clear Property- 'clear' is used to clear any floating 
+    element. To clear any floating element the 'clear' must target
+    the actual property indicating by the 'float' property setted value,
+    otherwise clear won't work.
+    
+    When we use the float property and we basically want the next element to be setted on 
+    below (not on the right or left), we will have to use the clear property.
+
+
+
+    The clear property specifies what should happen with the element that is next to a floating element.
+
+    'clear' property have some following values:
+    1) none     ; denotes no clearing of element which is by default. 
+    2) left     ; denotes clearing towards left direction means below left floated elements
+    3) right    ; denotes clearing towards right direction means below right floate elements
+    4) both     ; denotes clearing towards left and right direction, mostly used 
+                if unsure about the direction from what floating element to be clear.
+                
+    When clearing floats, you should match the clear to the float: If an element is floated to the left, 
+    then you should clear to the left. Your floated element will continue to float, but the 
+    cleared element will appear below it on the web page.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Clear Property</title>
+    <link rel="stylesheet" href="./css/2.clear-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Clear Property- 'clear'</h2>
+    <div class="wrapper-box">
+        <div class="insidal-box">Box-1</div>
+        <div class="insidal-box">Box-2</div>
+        <div class="insidal-box">Box-3</div>
+        <div class="insidal-box">Box-4</div>
+    </div>   
+</body>
+</html>

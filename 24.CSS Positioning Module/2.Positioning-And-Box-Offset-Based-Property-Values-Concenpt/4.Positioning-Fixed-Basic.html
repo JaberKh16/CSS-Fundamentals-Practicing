@@ -1,0 +1,54 @@
+<!--
+    CSS Positioning Property Concept
+    ================================
+    CSS Positioning Property- 'position' is used to position 
+    element towards different direction in the web page. Positioning
+    of element required Box Offset values(top, right, left, bottom) to 
+    position the elements. Box Offset takes numeric units value to position
+    the element. Box Offset values can take either positive(+) or negative(-)
+    values of numeric units while positioning the elements.
+
+    'position' property have some following values:
+    1) static   ; denotes static position, which is by default
+    2) relative ; denotes relative position, relative position for any element is
+                defined by their parent element(means any child element relative 
+                to its parent element).If parent element doesn't define its property
+                'position' then child element will relative to the viewport.
+    
+    3) absolute ; denotes absolute position, when position is absolute then it will collapsing
+                between the neighbors elements, so always use parent element position to 'relative'.
+                By default 'absolute' is also relative to HTML Element. If parent element position
+                is not defined then position towards HTML element and if parent element position is
+                specified then postion towards the parent element postion value.
+    4) fixed    ; denotes fixed position, while position is fixed then the element will be fixed
+                towards that specific box offset position, even the scrolling happens that fixed 
+                element will be fixed at that position though relative to its document flow means viewport.
+                So, position value 'fixed' is always position towards viewport.
+    5) sticky   ; denotes sticky position, when position is sticky that specific element will be act like
+                fixed at that specific position specified by Box Offset as condition uptil that point 'sticky' 
+                will be fixed even if the scroll occurs and when element is reach
+                its specified viewport then sticky element will move with its parent element.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Position Fixed</title>
+    <link rel="stylesheet" href="./css/4.positioning-fixed-value.css">
+</head>
+<body>
+    <h2>Example Of Positioning Element Fixed- 'fixed' value</h2>
+    <div class="parent-box">
+        <div class="child-box">
+            <div class="grand-child-box">Box-1</div>
+            <div class="grand-child-box">Box-2</div>
+            <div class="grand-child-box">Box-3</div>
+            <div class="grand-child-box">Box-4</div>
+            <div class="grand-child-box">Box-5</div>
+        </div>
+    </div>
+</body>
+</html>

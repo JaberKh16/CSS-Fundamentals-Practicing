@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+
+.wrapper-box{
+    background-color:#55f;
+    overflow:auto;
+}
+
+.insidal-box{
+    width:200px;
+    height:200px;
+}
+
+.insidal-box:nth-child(1){
+    background-color:maroon;
+    float:left;
+}
+
+.insidal-box:nth-child(2){
+    background-color:cadetblue;
+    float:left;
+    clear:left;
+}
+
+.insidal-box:nth-child(3){
+    background-color:coral;
+    float:right;
+}
+
+.insidal-box:nth-child(4){
+    background-color:darkgoldenrod;
+    float:left;
+    clear:right;
+}

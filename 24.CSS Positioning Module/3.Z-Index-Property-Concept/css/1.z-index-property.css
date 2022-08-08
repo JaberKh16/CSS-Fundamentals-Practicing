@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+div:nth-child(1){
+    background-color:blueviolet;
+    position: fixed;
+    top:50px;
+    left:10px;
+}
+
+div:nth-child(2){
+    background-color: green;
+    position: fixed;
+    top:100px;
+    left:60px;
+    z-index:2;
+}
+
+div:nth-child(3){
+    background-color:chocolate;
+    position: fixed;
+    top:180px;
+    left:120px;
+    z-index:0;
+}
+
+div:nth-child(4){
+    background-color:darkslategrey;
+    position: fixed;
+    top:250px;
+    left:180px;
+    z-index:-2;
+}

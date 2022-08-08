@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.parent-box{
+    width: 400px;
+    height: 500px;
+    background-color: coral;
+}
+
+.child-box1{
+    width: 200px;
+    height: 400px;
+    background-color:crimson;
+    border: 1px solid;
+    position: absolute;
+    left:150px;
+}
+
+.insidal-child{
+    width: 70px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border: 1px solid;
+    /* position: absolute; */
+    position: relative;
+    top:120px;
+    left:200px;
+}
