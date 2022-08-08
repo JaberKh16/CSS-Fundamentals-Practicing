@@ -1,0 +1,24 @@
+h2{
+    color:blue;
+    text-decoration:underline;
+    margin:30px;
+}
+
+.unit-emphasize{
+    color:brown;
+    font-size:4em;
+}
+
+.unit-root-emphasize{
+    color:brown;
+    font-size: 6rem;
+}
+
+.unit-character{
+    color:brown;
+    font-size: 6ch;
+}
+.unit-x-height{
+    color:brown;
+    font-size: 14ex;
+}

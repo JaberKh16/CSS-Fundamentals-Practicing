@@ -1,0 +1,18 @@
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 50%;
+}
+
+.unit-in-percentage{
+    height: 50%; /* take the 50% of its parent element so finally calculated as 25% as height */
+    background-color:brown;
+}

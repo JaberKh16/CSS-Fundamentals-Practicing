@@ -1,0 +1,40 @@
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom:40px;
+}
+
+.unit-picas{
+    color:darkcyan;
+    border: 1pc solid green; 
+}
+
+.unit-pixel{
+    color:darkcyan;
+    border: 1px solid green;
+}
+
+.unit-point{
+    color:darkcyan;
+    border: 1pt solid green;
+}
+
+.unit-quater{
+    color:darkcyan;
+    border: 1Q solid green;
+}
+
+.unit-milimeter{
+    color:darkcyan;
+    border: 1mm solid green;
+}
+
+.unit-centimeter{
+    color:darkcyan;
+    border: 1cm solid green;
+}
+
+.unit-inch{
+    color:darkcyan;
+    border:1in solid green;
+}

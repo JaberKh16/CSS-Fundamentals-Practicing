@@ -1,0 +1,25 @@
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.unit-in-vw-and-vh{
+    height:50vh;
+    width:50vw;
+    background-color:blue;
+}
+
+.unit-in-vmax{
+    height:50vh;
+    width:50vmax;
+    background-color:blueviolet;
+    margin-top:30px;
+}
+
+.unit-in-vmin{
+    height:50vmin;
+    width:50vw;
+    background-color:brown;
+    margin-top:30px;
+}

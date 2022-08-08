@@ -1,0 +1,90 @@
+CSS Units And Values Concept
+============================
+CSS Units And Values have some properties which can be divided into 2 categories generally which 
+are the following:
+    1) Distance Units
+	2) Quantities Units
+	3) Functional Notation
+
+1)Distance Units
+================
+Distance Units further can be divided into two categories which are the following:
+	1) Absolute Units ==> pc(picas), pt(point), Q(Quater Milimeter), px(Pixel), mm(Milimeter), cm(Centimeter),inch(Inces)
+	2) Relative Units ==> divided into two categories -- a) Font Relative Units b) View Port Relative Units
+
+Absolute Units
+--------------
+Absolute Units Actual Values Can be follows:
+a) 1pc = 16px
+b) 1Q  = 1px
+c) 1px = 1px
+d) 1pt = 1.32812px
+e) 1in = 96px
+f) 1mm = 3.76562px
+g) 1cm = 37.7812px
+
+Relative Units
+--------------
+a) Font Relative Units
+  --------------------
+  1) em(emphasize)
+  2) rem(relative emphasize)
+  3) ch(character length size) - 1ch = 8px, varies length with no. of characters
+  4) ex(x-height) - denotes x-height of the current font or half of 1em changes as the font-family changes.
+
+b) ViewPort Relative Units
+  ------------------------
+  ViewPort is nothing but the visible area of any devices. It has some following values which are:
+
+  	1) vw(viewport width)  - denotes 100% of the screen width size
+  	2) vh(viewport height) - denotes 100% of the screen height size
+	3) vmin(viewportmin)   - denotes the viewport minimum width or height with the resizing of devices screen size, where width and height
+				  any one of them can be setted and it will be calculated minimum of the viewport as screen resizes or changes.
+	4) vmax(viewportmax)   - denotes the viewport maximum width or height with the resizing of devices screen size, where width and height
+				  any one of them can be setted and it will be calculated maximum of the viewport as screen resize or changes.
+
+
+2) Quantities Units
+===================
+Quantities Units has 3 categories which are the following:
+   1) Angle Units
+   2) Duration Units
+   3) Frequencies Units
+
+Angle Units
+-----------
+Angle Units has some following values:
+		
+	a) deg  - denotes degree value 
+	b) rad  - denotes radian value
+	c) grad - denotes gradian value
+	d) turn - denotes turn value 
+   
+Values can be interpreted as follows mathematically,
+   		
+	360 deg = 400 grad
+	360 deg = 6.28 rad
+	360 deg = 1 turn
+
+Duration Units
+--------------
+Duration Units has some following values:
+  	a) s  - denotes seconds duration
+	b) ms - denotes miliseconds duration
+
+Frequencies Units
+-----------------
+Though most browser didn't support it properly so we are not gonna discuss about it.
+
+
+3) Functional Notation
+======================
+1) calc(mathmatical-expression)  - to calculate the length any mathematical expression passed as CSS Length property values.It allows 
+                                   mathematical expression to be used as component values. Provides ability to use mix units. Calculation
+				    of mathematical expression is conducted from left to right.
+				    
+				    Note: Prefix such as -moz, -webkit is needed to cover earlier firefoz and Chrome versions.
+
+  
+
+
