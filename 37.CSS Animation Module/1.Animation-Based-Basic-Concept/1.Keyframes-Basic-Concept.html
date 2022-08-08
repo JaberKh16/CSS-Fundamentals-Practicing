@@ -1,0 +1,56 @@
+<!--
+    CSS Keyframes Basic Concept
+    ===========================
+    CSS Keyframes are the frames which can be used to define the frames while
+    working with the animation based work.
+    To create a frame the keywork,   '@keyframes' is used.
+    Syntax:
+        @keyframes keyframe-name{
+            from{}
+            to{}
+        }
+        @keyframes keyframe-name{
+            0%{}
+            100%{}
+        }
+
+    In above two ways keyframes can be created, though there has some condition which denotes\
+    what will be suitable in what situation.
+    
+    1) If animation has 2 states only then used the following:
+        @keyframes keyframe-name{
+            from{}
+            to{}
+        }
+    
+    2) If animation need more than 2 states then used the following:
+        #keyframes keyframe-name{
+            0%{}
+            10%{}
+            25%{}
+            50%{}
+            75%{}
+            100%{}
+        }
+    
+    Keyframes name is case-sensitive means having spelling mistake while including the 
+    keyframes in the animation-name based property will not infer anything.
+
+    Defining multiple keyframes can be supported where indiviudal keyframes will be include
+    with the 'animation-name' property with comma separeted ways.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes Basic Concept</title>
+    <link rel="stylesheet" href="./css/1.keyframes-basic-concept.css">
+</head>
+<body>
+    <div class="container-div"></div>
+</body>
+</html>

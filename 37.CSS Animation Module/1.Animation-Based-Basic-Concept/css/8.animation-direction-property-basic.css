@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 60px auto;
+    text-shadow: 0px 3px 45px #f1dddd;
+}
+
+.container-div-normal-direction{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%; 
+    position: relative;
+    top: 100px;
+    animation-name: container_moving;
+    animation-duration:10s;
+    animation-iteration-count: 3;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-play-state: running;
+    animation-direction: normal;
+}
+
+.container-div-alternate-direction{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%; 
+    position: relative;
+    top: 300px;
+    animation-name: container_moving;
+    animation-duration:10s;
+    animation-iteration-count: 3;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+.container-div-alternate-reverse-direction{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%; 
+    position: relative;
+    top: 500px;
+    animation-name: container_moving;
+    animation-duration:10s;
+    animation-iteration-count: 3;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+}
+.container-div-reverse-direction{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%; 
+    position: relative;
+    top: 700px;
+    animation-name: container_moving;
+    animation-duration:10s;
+    animation-iteration-count: 3;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-play-state: running;
+    animation-direction: reverse;
+}
+
+@keyframes container_moving {
+    from{
+        position: absolute;
+        /* top: 100px; */
+        left: 100px;
+    }
+    to{
+        position: absolute;
+        /* top: 100px; */
+        left: 600px;
+    }
+}
+

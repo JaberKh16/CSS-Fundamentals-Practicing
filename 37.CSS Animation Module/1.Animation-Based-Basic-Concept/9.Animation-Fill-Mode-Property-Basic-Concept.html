@@ -1,0 +1,39 @@
+<!--
+    CSS Animation Module Property- 'animation-fill-mode'
+    ====================================================
+    CSS Animation Module Property- 'animation-fill-mode' is used to define the
+    control of animation that it should behave before the animation starts and after 
+    animation ends means this property will control the animation behaviour of starting
+    and ending effect.    
+    Syntax:
+        animation-fill-mode: forward/backward/both    
+    
+    
+    'animation-fill-mode' property supports following as its value:
+
+        1) none                     ; denotes no animation fill mode happening which is by default behaviour
+        2) forwards                 ; denotes animation should be stops at the last direction after the animation
+                                    count means stops at 100% keyframes value.
+        3) backwards                ; denotes animation will work before the animation starts means starts 
+                                    before 0% keyframe value
+        4) both                     ; denotes animation fill mode will be both forward and backward
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Module Property- 'animation-fill-mode'</title>
+    <link rel="stylesheet" href="./css/9.animation-fill-mode-basic.css">
+</head>
+<body>
+    <h2>Example Of Animation Module Property-'animation-fill-mode'</h2>
+    <div class="container-div-fillmode-none"><p>none</p></div>
+    <div class="container-div-fillmode-forwards"><p>forwards</p></div>
+    <div class="container-div-fillmode-backwards"><p>backwards</p></div>
+    <div class="container-div-fillmode-both"><p>both</p></div>
+</body>
+</html>
