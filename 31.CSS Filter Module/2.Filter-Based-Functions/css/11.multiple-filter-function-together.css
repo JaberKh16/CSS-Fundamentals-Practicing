@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid;
+    transition: filter 1s;
+    filter:brightness(50) contrast(45%) drop-shadow(50px 25px 0.35px #ff34);
+}
+
+img:hover{
+    filter:none;
+}

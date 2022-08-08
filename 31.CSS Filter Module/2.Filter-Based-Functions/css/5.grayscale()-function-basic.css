@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid;
+    transition: filter 1s;
+    /* filter:grayscale(55); */
+    /* filter:grayscale(55%); */
+}
+
+img:hover{
+    filter:none;
+}
