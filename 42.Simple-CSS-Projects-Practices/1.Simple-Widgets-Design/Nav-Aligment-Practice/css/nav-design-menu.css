@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+
+/*
+=============================================================================================
+                            Navigational Bar CSS Design
+=============================================================================================
+*/
+
+.main-header-nav{
+    width: 100%;
+    /* height:150px; */
+    background-color: #22254d;
+    /* display:inline-block; */
+    padding:8px 16px;
+    color:#fff;
+}
+
+.main-header-nav > div{
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.man-nav{
+    display: inline-block;
+    text-align: right;
+    width:calc(100% - 200px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+
+.main-nav__item{
+    display: inline-block;
+    padding:15px;
+}
+
+
+/*
+=============================================================================================
+                            Navigational Bar CSS Design
+=============================================================================================
+*/
