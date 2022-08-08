@@ -1,0 +1,46 @@
+<!--
+    CSS Flex Container Property- align-content
+    ==========================================s
+    CSS Flex Container Property- 'align-content' denotes the alignment of lines of content
+    aligned along the Cross Axis. It distribute additional spaces along the Cross Axis. 
+    Condition is tha,t multiple lines or multiple rows needs to be existed within the 
+    container, if not their is not effect of this property.
+    Wrapping is required to force a item into flows towards two lines.s    
+    
+    'align-content' property has some following values:
+    1) stretch          ; denotes that container insidal elements on two lines are stretch to fulfil
+                        the available spaces means alignment of lines of content within the container.
+                        This is default value.
+    2) flex-start       ; puts the line to the beginning of the Cross Axis(Cross Start) point. 
+    3) flex-end         ; puts the line to the end of the Cross Axis(Cross End) point.
+    4) center           ; puts the line to the center of the Cross Axis.
+    5) space-between    ; puts up all the extra spaces and then puts it in between the lines(means extra
+                        spaces in between two lines).
+    6) space-around     ; distributes the extra spaces around the lines. Center positioned spaces are twice in 
+                        factor in lengthwise than the Edge Positioned spaces.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Container Proeprty- 'align-content'</title>
+    <link rel="stylesheet" href="./css/7.align-content-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Container Property- 'align-content'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>

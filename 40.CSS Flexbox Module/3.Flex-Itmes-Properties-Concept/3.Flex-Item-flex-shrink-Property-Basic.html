@@ -1,0 +1,46 @@
+<!--
+    CSS Flex Item Property- 'flex-shrink'
+    =====================================
+    CSS Flex Item Property- 'flex-shrink' defines the ability to flex items
+    to shrink if necessary. Flex Shrink factor is always relative to the size 
+    of the other items in the flex container.
+    
+    By default, all flex items have 'flew-shrink' property value as 1, thus
+    when the browser width is being reducing gradually, flex items is also 
+    been trying to shrink uptil at certain point, then the flex items gets 
+    overflowed.
+
+    'flex-shrink' can take integer value as parameter, doesn't
+    support negative values.
+
+    As the values grows means the larger the value for 'flex-shrink' property
+    that specific flex item will shrink that much times than the other flex items.
+
+    'flex-shrink' property dictates the shrink factor of the flex items when the
+    default size the flex items is larger than the flex container.
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Item Property- 'flex-shrink'</title>
+    <link rel="stylesheet" href="./css/3.flex-shrink-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Item Property- 'flex-shrink'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>

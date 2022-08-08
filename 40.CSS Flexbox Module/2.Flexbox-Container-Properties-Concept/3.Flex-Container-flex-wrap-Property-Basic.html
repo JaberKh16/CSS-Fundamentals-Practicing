@@ -1,0 +1,43 @@
+<!--
+    CSS Flex Container Property- flex-wrap
+    ======================================
+    CSS Flex Container Property- 'flex-wrap' denotes the control of
+    wrapping behavior of flex items inside the container. Generally, 
+    if the browser wise is being shrinked then flex items are overflowed.
+    Wrapping of items always occurs from the last items inside the flex 
+    container.
+    
+    'flex-wrap' property support following types of values:
+    1) no-wrap      ; denotes the no-wrapping of items so overflows occurs 
+                    if browser size gets shrinked. By default, value is 'no-wrap'.
+    2) wrap         ; denotes wrapping of items in the container if overflows occurs
+                    and overflows items moves towards the next row.
+    3) wrap-reverse ; denotes wrapping of items in the container if overflows then overflows
+                    items get moves towards the oposite direction of 'wrap' value means 
+                    wraping is done from the upward row.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Container Proeprty- 'flex-wrap'</title>
+    <link rel="stylesheet" href="./css/3.flex-wrap-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Container Property- 'flex-wrap'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>

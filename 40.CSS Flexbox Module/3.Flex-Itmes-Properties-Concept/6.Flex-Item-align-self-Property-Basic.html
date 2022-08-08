@@ -1,0 +1,46 @@
+<!--
+    CSS Flex Item Property- 'align-self'
+    ===================================
+    CSS Flex Item Property- 'align-self' porperty is used to control 
+    the alignment of individual flex items. This property denotes the 
+    alignment of individual flex items.
+    
+    'align-self' has some following values:
+    1) flex-start       ; pulls to the top where the the Cross Axis starts.
+    2) flex-end         ; pulls to the bottom where the the Cross Axis ends.
+    3) center           ; pulls to the center of the Cross Axis.
+    4) stretch          ; stretches the items to the Cross Axis.
+    5) auto             ; default value, implies aligned self which is being computed
+                        from the 'align-items' property of the parent container means 
+                        inheriting the value of parent container 'align-items' property.
+                        For the individual items it have the 'align-self' property value 
+                        as 'auto'.
+    
+    'align-self' property will overrides the 'align-items' property if the 'align-self'
+    property value is specified.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Item Property- 'align-self'</title>
+    <link rel="stylesheet" href="./css/6.align-self-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Item Property- 'align-self'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>

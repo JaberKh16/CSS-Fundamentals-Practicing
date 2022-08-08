@@ -1,0 +1,42 @@
+<!--
+    CSS Flex Item Property- 'flex-basis'
+    =====================================
+    CSS Flex Item Property- 'flex-basis' specifies the initial size of a flex
+    item before the actual space in the container is distributed. This property
+    is used inplace of 'width' property,so always use 'flex-basis' proeprty instead
+    of 'width' property while working with flexbox.
+    
+    'flex-basis' can take numeric-unit-length value as parameter.
+    'flex-basis' property has support following values:
+    1) auto                     ; sets the initial width based on the items content, though
+                                for an item which has its width denoted by the item content length.
+    2) numeric-unit-length      ; set the width based on the specified 'numeric-unit-length'
+
+    Note: 'flex-grow' and 'flex-shrink' properties need to be apply on top of 'flex-basis' property
+    because 'flex-grow' and 'flex-shrink' proeprties will be applied on the flex items whether even 
+    the 'flex-basis' proeprty is applied on the flex items. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Item Property- 'flex-basis'</title>
+    <link rel="stylesheet" href="./css/4.flex-basis-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Item Property- 'flex-basis'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!--
+    CSS Flex Item Property- 'flex'
+    ==============================
+    CSS Flex Item Property- 'flex' is the shorthand property for the
+    'flex-grow', 'flex-shrink' and 'flex-basis' properties.
+    
+    Syntax:
+        flex: <flex-grow> <flex-shrink> <flex-basis>
+    
+    By default, 'flex' has the following values:
+            flex: 0 1 auto;
+    where, 'flex-grow' is 0, 'flex-shrink' is 1 and 'flex-basis' is auto.
+
+    'flex' property supports the following ways of specifying values:
+    1) Sinle Parameter Value:
+            a) flex: 2          ; denotes the unit-less value so 'flex-grow' is 2 here.
+            b) flex: 3px        ; denotes the unit value so 'flex-basis' is 3px here.
+    2) Double Parameters Value:
+            a) flex: 2 2        ; denotes the unit-less values, first one is 'flex-grow' which is 2.
+                                and second one 'flex-shrink' which is 2 also.
+            b) flex: 2 30px     ; denotes the unit-less and unit value where, first one is 'flex-grow'
+                                which is 2 and second one 'flex-basis' which is 30px.
+    3) Three Parameters Value:
+            a) flex: 2 2 30px   ; denotes the <flex-grow> which is 2, then <flex-shrink> which is also 2
+                                and <flex-basis> which is 30px.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Flex Item Property- 'flex'</title>
+    <link rel="stylesheet" href="./css/5.flex-property-basic.css">
+</head>
+<body>
+    <h2>Example Of Flex Item Property- 'flex'</h2>
+    <div class="parent-container">
+        <div class="child-flex-item item-1">Item-1</div>
+        <div class="child-flex-item item-2">Item-2</div>
+        <div class="child-flex-item item-3">Item-3</div>
+        <div class="child-flex-item item-4">Item-4</div>
+        <div class="child-flex-item item-5">Item-5</div>
+        <div class="child-flex-item item-6">Item-6</div>
+        <div class="child-flex-item item-7">Item-7</div>
+        <div class="child-flex-item item-8">Item-8</div>
+    </div>
+</body>
+</html>
