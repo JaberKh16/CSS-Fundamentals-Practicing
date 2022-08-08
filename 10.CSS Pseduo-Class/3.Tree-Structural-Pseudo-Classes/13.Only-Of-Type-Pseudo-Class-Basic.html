@@ -1,0 +1,38 @@
+<!--
+    :only-of-type Pseudo Class Example
+    ===================================
+    :only-of-type Pseudo Class matches for the element that has no siblings 
+    of its same type or can having single instance of that particular element. 
+    To work with this pseduo class it must had to have a parent element.  
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class :only-of-type</title>
+    <link rel="stylesheet" href="./css/13.only-of-type-pseudo-class.css">
+</head>
+<body>
+    <main>
+        <div>
+            <h3>Heading Section(From Outsidal Div-0)</h3>
+            <p>Paragraph-1(From Outsidal Div-0)</p>
+            <i>Italic Paragraph-1(From Insidal Div-0)</i>
+            <div>
+                <i>Italic Paragraph-2(From Insidal Nested Div-1)</i>
+                <p>Paragraph-2(From Insidal Nested Div-1)</p>
+            </div>
+            <blockquote>Paragraph-2(From Insidal Nested Div-1)</blockquote>
+            <h3>Heading Section(From Insidal Nested Div-1)</h3>
+            <i>Paragraph-3(From Insidal Nested Div-1)</i>
+            <h3>Heading Section(From Insidal Nested Div-1)</h3>
+            
+        </div>
+        <div>
+            <p>Another Div Element</p>
+        </div>
+    </main>
+</body>
+</html>

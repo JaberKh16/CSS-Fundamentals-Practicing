@@ -1,0 +1,6 @@
+/* :required selects only the <input> element which set its attribute 'required' */
+
+input:required{
+    border-width: 3px;
+    color:yellow;
+}

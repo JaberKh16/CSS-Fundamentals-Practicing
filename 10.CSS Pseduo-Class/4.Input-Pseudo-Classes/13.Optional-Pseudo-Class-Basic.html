@@ -1,0 +1,29 @@
+<!--:optional Pseudo Class Example
+    ==============================
+    :optional Pseudo Class can work with element such as <input>, <select> or
+    <textarea> those has the attribute "required" but not setted. Useful for 
+    differentiating input field which doesn't required input to submit form.
+    Any form <input> element by default behaviour is 'optional' when comes to
+    take input for the input field.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :optional</title>
+    <link rel="stylesheet" href="./css/13.optional-pseudo-class.css">
+</head>
+    <form action="">
+        <label for="name-info">Enter Your Name:</label>
+        <!--<input> tag by default behaviour is optional when to put some value inside the field-->
+        <input type="text" name="name-info">
+        <label for="email-info">Enter Your Email:</label>
+        <!--Setting The <input> tag input must with attribute 'required'-->
+        <input type="email" name="email-info" required>
+        <input type="submit" name="submit-infor">
+    </form>    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!--:placeholder-shown Pseudo Class Example
+    =======================================
+    :placeholder-shown Pseudo Class represents any <input> or <textaread>
+    element tag which currently setted its attribute 'placeholder'. Any
+    <input> or <textarea> element tag which doesn't specified its 'placeholder'
+    attribute can't be selected by this :placeholder-shown pseduo class.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :placeholder-shown</title>
+    <link rel="stylesheet" href="./css/5.placeholdershown-pseudo-class.css">
+</head>
+<body>
+    <form id="test-form">
+        <p>
+            <label for="first-name">First Name:</label>
+            <input id="first-name" placeholder="First Name">
+        </p>
+        <p>
+            <label for="branch-name">Branch Name:</label>
+            <input id="branch-name" placeholder="Branch Name">
+        </p>
+        <p>
+            <label for="employee-id">Employee ID:</label>
+            <input type="employee-id" pattern="[0-9]{8}" title="8 digit ID" 
+            id="employee-id" class="employee-id" placeholder="8 digit id"/>
+        </p>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

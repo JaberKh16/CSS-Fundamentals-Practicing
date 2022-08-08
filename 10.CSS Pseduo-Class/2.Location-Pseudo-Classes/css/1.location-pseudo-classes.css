@@ -1,0 +1,37 @@
+/*
+Location Pseudo Classes
+1)  :any-link;  holds the state of the anchor link source actor of hyperlink(href) 
+                whether its been visited or not. Basically it matches every anchor tag
+                which contain attribute 'href'.
+2)  :link   ; holds the state of the anchor links to some property if not visted yet.
+3)  :visited; holds the state of the anchor links to some property if only visted.
+4)  :hover  ; holds the state of the anchor links to some property if mouse hovers over it.
+5)  :focus  ; holds the state of the anchor links when switching between links as tab view.
+
+*/
+
+nav a:link{
+    color:darkgreen;
+    text-decoration:none;
+}
+
+nav a:visited{
+    color:darkorange;
+}
+
+nav a:any-link{
+    color: darkgreen;
+}
+
+/* User Action Pseudo Classes with Location Pseudo Classes Anchor Links*/
+nav a:active{
+    color:mediumseagreen;;
+}
+nav a:hover{
+    color:blueviolet;
+    text-decoration:underline dashed;
+}
+
+nav a:focus{
+    color:chartreuse;
+}

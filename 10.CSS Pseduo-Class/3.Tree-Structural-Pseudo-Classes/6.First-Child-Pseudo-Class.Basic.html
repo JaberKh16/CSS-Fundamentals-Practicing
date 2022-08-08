@@ -1,0 +1,30 @@
+<!--
+    :first-child Pseudo Class Example
+    =================================
+    :first-child Pseudo Class represents the first element among a group of
+    sibling elements. To work with this :first-child Pseudo Class it must had 
+    to have a parent, otherwise wont work. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class :first-child</title>
+    <link rel="stylesheet" href="./css/6.first-child-pseudo-class.css">
+</head>
+<body>
+    <div>
+        <p>Paragraph-1(From Outsidal Div)</p> <!--here, this <p>... </p> first child of the <div> ... </div> tag-->
+        <p>Paragraph-2(From Outsidal Div)</p>
+        <h3>Heading Section(From Outsidal Div)</h3>
+        <p>Paragraph-3(From Outsidal Div)</p>
+        <div>
+            <p>Paragraph-2(From Nested Div)</p>
+            <h3>Heading Section (From Nested Div)</h3>
+            <p>Paragraph-3 (From Nested Div)</p>
+        </div>
+    </div>
+</body>
+</html>

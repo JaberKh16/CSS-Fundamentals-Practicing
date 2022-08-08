@@ -1,0 +1,27 @@
+<!--:invalid Pseudo Class Example
+    =============================
+    :invalid Pseudo Class represents those <input> or <form> element tags whose
+    content is failed to validate when user's fill the input field content. This
+    :invalid pseudo class is very useful for highlighting the fields which got the
+    error.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Psuedo Class- :invalid </title>
+    <link rel="stylesheet" href="./css/9.invalid-pseudo-class.css">
+</head>
+<body>
+    <form action="">
+        <label for="user-name">Enter Your Name:</label>
+        <input type="text" name="user-name">
+        <label for="user-email">Enter Your Email:</label>
+        <input type="text" name="user-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <input type="submit">
+    </form>
+</body>
+</html>

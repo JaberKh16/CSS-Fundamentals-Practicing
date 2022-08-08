@@ -1,0 +1,6 @@
+/* :in-range checks for the input in range */
+
+input:in-range{
+    color:blueviolet;
+    border: 2px solid blue;
+}

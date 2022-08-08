@@ -1,0 +1,34 @@
+<!--in-range Pseudo Class Example
+    ==================================
+    :in-range Pseudo Class represents an <input> element whose current value
+    is something which is within the limits specified by the attribute 'min' and 'max'.
+    This pseudo class is useful for giving the user a visual indication about the value
+    limit range through an indicator.
+    
+    Note: :in-range pseudo class can be applied on to the elements that have
+    or can take range limitation value means those elements which supports attribute
+    'min' and 'max' to set some range.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :in-range</title>
+    <link rel="stylesheet" href="./css/10.inrange-pseudo-class.css">
+</head>
+<body>
+    <form action="" id="form1">
+        <p>Values between 1 and 10 are valid. Though here value 'min' and 'max'
+            is setted from 1 to 10, so you can't go above that but though input
+            element is editable so can edit it with larger value.
+            <br> <br>
+
+            <label for="value-range">Value Range:</label>
+            <input type="number" name="value-range" min="1" max="10">
+        </p>
+    </form>
+</body>
+</html>

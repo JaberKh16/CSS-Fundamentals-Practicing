@@ -1,0 +1,13 @@
+Basic Concept About Combinators
+===============================
+
+Combinators are basically a technique to combine multiple selectos to be
+more precise in work about what we want to select as whole when nested elements are there and we wanted to be
+specific which which elements needs to be selected for further styling. It is tells basically 
+which type of selectors we want to select as combined. There are normally 4 types of combinators
+which are the following:
+        
+        1) Adjacent Sibling Combinator
+        2) General Sibling Combinator
+        3) Child Combinator
+        4) Descendant Combinator

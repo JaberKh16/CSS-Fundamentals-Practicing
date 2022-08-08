@@ -1,0 +1,23 @@
+<!--:playing Pseudo Class Example
+    =============================
+    :playing Pseudo Class selector is a resource state based pseudo class which matches
+    for the audio, video or similar type resources that is capable of being either 'playing'
+    or 'paused', now this :playing matches for those resources when their state is on 'plaing'.
+    Note to remember a resource is considered 'playing' even if in 'buffering' state or 'pause' for
+    any reason other than user's intentionally cause it to be 'paused'.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource State Pseudo Class- :playing</title>
+    <link rel="stylesheet" href="./css/1.playing-pseudo-class.css">
+</head>
+<body>
+    <video width="560" height="315" controls> 
+        <source src="./video/video-1.mp4" type="video/mp4"></source> 
+    </video>    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!--
+    :nth-last-of-type Pseudo Class Example
+    =======================================
+    :nth-last-of-type Pseudo Class matches for the elements based on their position
+    among the siblings of same type via specified argument. It takes a single 
+    argument which represents the pattern while matching for the elements.
+    This pseudo class starts its matching pattern from the ending/last index position.
+    
+    :nth-of-type Pseudo Class follows the following Syntax:
+        Syntax: 
+                    :nth-last-of-type(<nth>)
+                where, <nth> is basically (An + B)/Odd-Value/Even-Value
+    
+    
+    Note: There is no way to select the nth-last-of-class using this pseudo class selector. The
+    selector looks at the type of only when creating the list of matches but can however apply 
+    CSS to an element based on :nth-last-of-type location and a class.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class :nth-last-of-type</title>
+    <link rel="stylesheet" href="./css/10.nth-last-of-type-pseudo-class.css">
+</head>
+<body>
+    <div>
+        <h3>Heading Section(From Outsidal Div-0)</h3>
+        <p>Paragraph-1(From Outsidal Div-0)</p>
+        <div>
+            <p>Paragraph-1(From Insidal Div-1)</p>
+            <div>
+                <p>Paragraph-2(From Insidal Nested Div-11)</p>
+                <h3>Heading Section(From Insidal Nested Div-11)</h3>
+                <p>Paragraph-3(From Insidal Nested Div-11)</p>
+            </div>
+            <div>
+                <p>Paragraph-2(From Insidal Nested Div-12)</p>
+                <h3>Heading Section(From Insidal Nested Div-12)</h3>
+                <p>Paragraph-3(From Insidal Nested Div-12)</p>
+            </div>
+            <h3>Heading Section(From Insidal Nested Div-1)</h3>
+        </div>
+        <div>
+            <p>Paragraph-1(From Insidal Div-2)</p>
+            <h3>Heading Section(From Insidal Div-2)</h3>
+            <p>Paragraph-2(From Insidal Div-2</p>
+        </div>
+    </div>
+</body>
+</html>

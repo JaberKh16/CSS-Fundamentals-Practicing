@@ -1,0 +1,3 @@
+video:current(p, span){
+    background-color: yellow;
+}

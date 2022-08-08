@@ -1,0 +1,11 @@
+.gender-specification input:checked + label{
+    color: green;
+}
+
+.order-confirmation input:checked + label{
+    color:darkblue;
+}
+
+.mobile-specification option:checked{
+    color: rgb(170, 99, 18);
+}

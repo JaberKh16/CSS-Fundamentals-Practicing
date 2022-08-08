@@ -1,0 +1,50 @@
+<!--:indeterminate Pseudo Class Example
+    ====================================
+    :indeterminate Pseudo Class basically work on some elements tags such elements 
+    are (<input type="checkbox">, <input type="radio"> or <progress>). This :indeterminate
+    pseudo class represents any form element whose state is indeterminate. Lets see how,
+
+    1) <input type="radio"> elements, when all radio buttons with the 
+        same name value in the form are unchecked
+    2) <input type="checkbox"> elements whose indeterminate property 
+        is set to true by JavaScript.
+    3) <progress> elements in an indeterminate state.
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :indeterminate</title>
+    <link rel="stylesheet" href="./css/7.indeterminate-pseudo-class.css">
+</head>
+<body>
+    <!-- Making A Fieldset For Checkbox Type Input-->
+    <fieldset class="gender-specification">
+        <legend>Gender Specification</legend>
+        <!--Setting Single Input Checkbox Explitcitly As Checked using attribute 'checked'-->
+        <input type="checkbox" name="gender-info" value="Male" indeterminate>
+        <label for="male">Male</label>
+        <input type="checkbox" name="gender-info" value="Female">
+        <label for="female">Female</label>
+    </fieldset>
+    <br> <br>
+    
+    <!-- Making A Fieldset For RadioButton Type Input-->
+    <fieldset class="order-confirmation">
+        <legend>Order Confirmation</legend>
+        <!--Setting Single Input Radio Explitcitly As Checked using attribute 'checked'-->
+        <input type="radio" name="order-info" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="order-info" value="No">
+        <label for="no">No</label>
+    </fieldset>
+    <br> <br>
+
+    <!--Making A Progress Bar With Attribute Set To 'indeterminate'-->
+    <progress indeterminate> </progress>
+
+</body>
+</html>

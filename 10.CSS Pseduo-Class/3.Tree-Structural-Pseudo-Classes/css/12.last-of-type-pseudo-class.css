@@ -1,0 +1,13 @@
+/* 
+Selecting Direct Child Combinators of Div Tag where it matches for the first element
+among the siblings having the same type.
+*/
+div > :last-of-type{
+    color:brown;
+    border: 2px solid blue;
+}
+
+p:last-of-type{
+    color:blueviolet;
+    border: 3px inset green;
+}

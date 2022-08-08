@@ -1,0 +1,29 @@
+<!--:user-invalid Pseudo Class Example
+    ==================================
+    :user-valid Pseudo Class can work with the form related elements such as <input>, 
+    <select> or <textarea>. It represents any validated form element whose value isn't
+    valid because user's provide some invalid information while interacting with the
+    input field. It matches for some pseudo classes such :invalid, :out-of-range, :required
+    to check for the validation of user's input.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :optional</title>
+    <link rel="stylesheet" href="./css/14.uservalid-pseudo-class.css">
+</head>
+    <form action="">
+        <label for="name-info">Enter Your Name:</label>
+        <!--<input> tag by default behaviour is optional when to put some value inside the field-->
+        <input type="text" name="name-info">
+        <label for="email-info">Enter Your Email:</label>
+        <!--Setting The <input> tag input must with attribute 'required'-->
+        <input type="email" name="email-info" required>
+        <input type="submit" name="submit-infor">
+    </form>    
+</body>
+</html>

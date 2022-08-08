@@ -1,0 +1,10 @@
+/* 
+    :only-child selects for div tag direct child combinators where
+    from the combinator it is matching for the element which is only single
+    element or say that element which has no siblings. 
+*/
+
+div > :only-child{
+    color:brown;
+    border: 2px solid blue;
+}

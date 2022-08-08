@@ -1,0 +1,9 @@
+/* 
+Selecting Div tag direct child combinators where the
+matching for the first child among those direct childs.
+*/
+
+div > :first-child{
+    color:brown;
+    border: 2px solid blue;
+}

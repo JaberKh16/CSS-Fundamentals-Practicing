@@ -1,0 +1,25 @@
+<!--:read-only Pseudo Class Example
+    ===============================
+    :read-only Pseudo Class represents an element such as <input> or
+    <textarea> tags that is not editable means users can edit those elements.
+    Now, to make an element editable attribute 'readonly' need to be setted
+    explicitly. The :read-only pseudo-class is used to remove all the styling 
+    that makes the inputs look like clickable fields, but making them look 
+    more like read-only paragraphs.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :read-only</title>
+    <link rel="stylesheet" href="./css/3.readonly-pseudo-class.css">
+</head>
+<body>
+    <label for="first-name">First Name:</label>
+    <!-- Explicitly Setting attribute 'read-only' on <input> tag element
+    means now this element can't be edited by the user.-->
+    <input type="text" id="first-name" readonly>    
+</body>
+</html>

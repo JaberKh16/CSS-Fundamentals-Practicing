@@ -1,0 +1,20 @@
+/*
+    :dir pseudo class handles the direction of the elements. Generally,
+    support three types of parameters:
+        1) ltr  ; to set direction in left to right(means leftward)
+        2) rtl  ; to set direction in right to left(means rightward)
+        3) auto ; by default set to leftward.
+*/
+div:dir(rtl){
+    color: green;
+    background-color:black;
+}
+
+div:dir(ltr){
+    color:blueviolet;
+}
+
+:dir(auto){
+    color:darkcyan;
+    background-color:bisque;
+}

@@ -1,0 +1,27 @@
+<!--:read-write Pseudo Class Example
+    =================================
+    :read-write Pseudo Class represents an element such as <input> or
+    <textarea> tags which is by default editable means users can edit those 
+    elements. Now, to make another element editable an attribute 'contenteditable' 
+    need to be setted explicitly to make those element editable. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :read-write</title>
+    <link rel="stylesheet" href="./css/4.readwrite-pseudo-class.css">
+</head>
+<body>
+    <label for="first-name">First Name:</label>
+    <!-- <input> tag element is by default editable -->
+    <input type="text" id="first-name">
+    <br> <br>
+    <p>This paragraph can be readonly; can't be editable</p>
+    <!-- Explicitly Setting attribute 'contenteditable' on <p> tag element
+    means now this element can be edited by the user.-->
+    <p contenteditable>This paragraph now can be editable</p>    
+</body>
+</html>

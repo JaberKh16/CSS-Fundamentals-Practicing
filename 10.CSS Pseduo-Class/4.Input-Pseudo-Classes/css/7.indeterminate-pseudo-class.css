@@ -1,0 +1,12 @@
+.gender-specification input:indeterminate + label{
+    color: red;
+}
+
+.order-confirmation input:indeterminate + label{
+    color:red;
+} 
+progress:indeterminate {
+    margin: 6px;
+    width:18vw;
+    height:18px;
+}

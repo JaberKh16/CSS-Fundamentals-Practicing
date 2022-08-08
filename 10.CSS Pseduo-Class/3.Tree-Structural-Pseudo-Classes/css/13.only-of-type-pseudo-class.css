@@ -1,0 +1,8 @@
+/*
+Inside Div Tag Looking For the element of type having single element type
+if having single instances of any element that will only selected.
+*/
+div:only-of-type{
+    color: brown;
+    border: 2px solid blue;;
+}

@@ -1,0 +1,23 @@
+/* 
+Selecting Direct Child Combinators of Div Tag where it matches
+for the siblings having the same type and their pattern matching index value is 2.
+*/
+div > :nth-of-type(2){
+    color:brown;
+    border: 2px solid blue;
+}
+
+/* 
+Selecting :nth-of-type sibling having indices positon 2n +2 so thus
+calculation of indices would be following:
+    2 * 0 + 2 = 2       ; n starts from 0
+    2 * 1 + 2 = 5
+    2 * 2 + 2 = 6
+    2 * 3 + 2 = 7
+    .............
+    .............
+*/
+p:nth-of-type(2n+2){
+    color:blueviolet;
+    border: 3px inset green;
+}

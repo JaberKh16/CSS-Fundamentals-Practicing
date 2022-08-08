@@ -1,0 +1,70 @@
+<!--
+    :nth-last-child() Pseudo Class Example
+    =======================================
+    :nth-last-child() Pseudo Class matches for the elements based on their
+    position among a group of sibling and for that it has to have a parent.
+    :nth-last-child() takes a single argument that describes a pattern while matching
+    element indices in a list of siblings. Element indices are 1-based. 
+
+    :nth-last-child() follows a mathematical notation which is the following:
+            
+                    (An + B) 
+        
+        where,  A       ; integer/numeric value, can be positive(+) or negative(-) value.
+                n       ; incremental index value starts from 0.
+                B       ; integer offset value which denotes the offset only, can be positive(+) or negative(-) value.
+
+    So, above notation it follows like i mean the argument can be passed here are the
+    following: 
+        1) :nth-last-child(odd-value)        ; to target odd positon/index value matching started from last/end index.
+        2) :nbth-last-child(even-value)      ; to target even position/index value matching started from last/end index.
+        3) :nth-last-child(An + B)           ; to target indices follows the (An + B) notation matching started from last/end index. 
+
+    Note: nth-child() started its matching element from last index means from the ending index to gradually up.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class: nth-last-child()</title>
+    <link rel="stylesheet" href="./css/5.nth-last-child()-class.css">
+</head>
+<body>
+    <h2>Working With Pseudo Class-  :nth-last-child()</h2>
+
+    <!--Selection Of Odd Indices Via Providing Odd Value As Argument-->
+    <h3>Providing Argument As Direct Numerical Odd Value</h3>
+    <ul class="odd-indices-selection">
+        <li>List-1</li>
+        <li>List-2</li>
+        <li>List-3</li>
+        <li>List-4</li>
+        <li>List-5</li>
+        <li>List-6</li>
+    </ul>
+    <!--Selection Of Even Indices Via Providing Even Value As Argument-->
+    <h3>Providing Argument As Direct Numerical Even Value</h3>
+    <ul class="even-indices-selection">
+        <li>List-1</li>
+        <li>List-2</li>
+        <li>List-3</li>
+        <li>List-4</li>
+        <li>List-5</li>
+        <li>List-6</li>
+    </ul>
+
+    <!--Selection Of Indices Via Providing Notation As Argument-->
+    <h3>Providing Argument As Mathematical Notation</h3>
+    <ul class="notation-indices-selection">
+        <li>List-1</li>
+        <li>List-2</li>
+        <li>List-3</li>
+        <li>List-4</li>
+        <li>List-5</li>
+        <li>List-6</li>
+    </ul>
+</body>
+</html>

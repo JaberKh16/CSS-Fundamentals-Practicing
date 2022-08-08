@@ -1,0 +1,53 @@
+<!--:checked Pseudo Class Example
+    =============================
+    :checked Pseudo Class basically work on some elements tags
+    which can be checked or at some point can be engaged with checking
+    such elements are (<input type="checkbox">, <input type="radio"> or 
+    <option> inside a <select> tag). Those element can be checked or toggled
+    to its active(engage or on) state.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :checked</title>
+    <link rel="stylesheet" href="./css/6.checked-pseudo-class.css">
+</head>
+<body>
+    <!-- Making A Fieldset For Checkbox Type Input-->
+    <fieldset class="gender-specification">
+        <legend>Gender Specification</legend>
+        <!--Setting Single Input Checkbox Explitcitly As Checked using attribute 'checked'-->
+        <input type="checkbox" name="gender-info" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="checkbox" name="gender-info" value="Female">
+        <label for="female">Female</label>
+    </fieldset>
+    <br> <br>
+    
+    <!-- Making A Fieldset For RadioButton Type Input-->
+    <fieldset class="order-confirmation">
+        <legend>Order Confirmation</legend>
+        <!--Setting Single Input Radio Explitcitly As Checked using attribute 'checked'-->
+        <input type="radio" name="order-info" value="Yes" checked>
+        <label for="yes">Yes</label>
+        <input type="radio" name="order-info" value="No">
+        <label for="no">No</label>
+    </fieldset>
+    <br> <br>
+
+    <!--Making A Fieldset For Select Options Or Dropdowns-->
+    <fieldset class="mobile-specification">
+        <legend>Mobile Brand Name</legend>
+        <select name="dropdownbox" id="mobile-brands">
+            <optgroup>
+                <option value="opt1">Apple iOS</option>
+                <option value="opt2">Android</option>
+                <option value="opt3">Windows</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</body>
+</html>

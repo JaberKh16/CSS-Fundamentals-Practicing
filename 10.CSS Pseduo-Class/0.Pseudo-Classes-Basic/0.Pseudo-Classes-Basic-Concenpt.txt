@@ -1,0 +1,7 @@
+Basic Concenpts Of Pseduo Classes
+==================================
+
+Pseduo classes are those classes which let you apply a style to an element not only in relation to the content
+of the document tree, but also in relation to external factors like the history of the navigator(:visited) means 
+already visted links, the status of that link status content (like :checked) checks whether the certain form 
+elements or the position of the mosue. 

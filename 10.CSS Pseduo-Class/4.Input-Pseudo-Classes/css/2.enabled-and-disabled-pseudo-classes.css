@@ -1,0 +1,9 @@
+:enabled{
+    color:blueviolet;
+    border:2px solid green;
+}
+
+:disabled{
+    color:red;
+    border:2px solid red;
+}

@@ -1,0 +1,14 @@
+/*
+    :lang(<language-code>) matches the <language-code> specified in the
+    :lang() pseudo class where this <language-code> is string type value 
+    without any quotaton mark. Whatever <language-code> is given :lang()
+    pseudo class matches for that <language-code> content in the HTML Document.
+    
+*/
+p:lang(en-US){
+    color:blue;
+}
+
+p:lang(en-GB){
+    color: coral;
+}

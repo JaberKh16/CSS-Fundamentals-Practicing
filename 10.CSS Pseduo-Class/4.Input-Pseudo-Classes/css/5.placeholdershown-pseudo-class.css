@@ -1,0 +1,10 @@
+input:placeholder-shown{
+    color:darkgreen;
+    background-color: darkkhaki;
+}
+
+input.employee-id:placeholder-shown{
+    color: white;
+    background-color:indigo;
+    font-style: italic;
+}

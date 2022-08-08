@@ -1,0 +1,9 @@
+/* :invalid pseudo class basically looking for those field which failed to 
+    validate its content.
+*/
+
+input:invalid{
+    color: red;
+    background-color:brown;
+    border: 3px solid brown;
+}

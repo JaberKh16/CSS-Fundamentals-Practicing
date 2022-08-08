@@ -1,0 +1,21 @@
+p{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #425;
+}
+
+h1{
+    color:darkgreen;
+    text-decoration: underline dashed darkgreen;
+    text-align: center;
+}
+
+div h2{
+    color:darkolivegreen;
+    text-decoration: underline;
+}
+
+div h3{
+    color:darkslategray;
+    border: 1px solid slategray;
+}

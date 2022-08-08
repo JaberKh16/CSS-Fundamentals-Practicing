@@ -1,0 +1,39 @@
+<!--:enabled And :disabled Pseudo Class Example
+    ===========================================
+    :enabled Pseudo Class represents any enabled element. An element
+    is considered to be 'enabled' if it can be either activated, clicked on or
+    typed into etc. Note to be taken that an element can have a 'disabled' state
+    means it can't be activated. An <input> tag element has its by default attribute
+    'enabled' activated means it is by default 'enabled', but if wanted so then 
+    an element attribute 'enabled' can be setted explicitly.
+
+    Otherhand, :disabled Pseudo Classs represents any disabled element. An
+    element is considered to be 'disabled' if it can't be activated or selected.
+    means can't be selected, clicked on, typed into etc. An element can be set
+    as 'disabled' using attribute 'disabled'. Now work on 'disabled' element an
+    element attribute 'disabled' needs to be setter explicitly.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pseudo Class- :enabled</title>
+    <link rel="stylesheet" href="./css/2.enabled-pseudo-class.css">
+</head>
+<body>
+    <label for="first-name">First Name:</label>
+    <!--<input> tag element is by default enabled even if its not specified-->
+    <input type="text" id="first-name">
+    
+    <label for="second-name">Second Name:</label>
+    <!--<input> tag element attribute 'enabled' is setted explicitly-->
+    <input type="text" id="second-name" enabled>
+    <label for="email">Email:</label>
+    
+    <!--<input> tag element attribute 'disabled' is setted explicitly
+    disabled element tag by default color is gray.-->
+    <input type="email" disabled>
+</body>
+</html>

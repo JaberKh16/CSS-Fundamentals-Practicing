@@ -1,0 +1,16 @@
+/*
+    Note: if :read-only pseudo class is being used without being specified
+    the selectors type then whole HTML Document is being selected because
+    <body> tag is 'read-only' element by default. So if just :read-only{}
+    specified then it will target for the whole <body> tag element. 
+*/
+
+:read-only{
+    background-color: darkgray;
+}
+
+/* selector:read-only{} will target the selector read-only fields only*/
+input:read-only{
+    background-color:darkblue; 
+    border: 2px solid green;
+}

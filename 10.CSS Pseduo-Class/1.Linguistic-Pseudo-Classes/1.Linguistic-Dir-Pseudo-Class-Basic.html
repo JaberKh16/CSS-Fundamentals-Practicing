@@ -1,0 +1,50 @@
+<!--
+    Linguistic Pseudo Classes Example
+    =================================
+    Linguistics Pseudo Classes are those classes which reflects the
+    document language and enable the section of elements based on 
+    language or script direction.
+    Some of the Linguistic Pseudo Classes are the following:
+        1)  :dir
+            -----
+            Its called directionality pseduo-class which selects an
+            element based on its directionality as determined by the
+            document language.
+            :dir pseudo class requires one parameter which are the following:
+                a) rtl  ; text in rightward direction
+                b) ltr  : text in leftward direction
+        2)  :lang
+            ------
+            Selects an element based on its content language. Only matches
+            the language.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguistic Pseudo Classes- :dir </title>
+    <link rel="stylesheet" href="./css/1.linguistic-dir-pseudo-class.css">
+</head>
+<body>
+    <!--Text Direction In Rightward using attribute 'dir'-->
+    <div dir="rtl">
+        <h2>Directional Psuedo Clases Example</h2>
+        <p>Paragraph Direction to be right.</p>
+    </div>
+
+    <!--Text Direction In leftward using attribute 'dir'-->
+    <div dir="ltr">
+        <h2>Directional Psuedo Clases Example</h2>
+        <p>Paragraph Direction to be left.</p>
+    </div>
+
+    <!--Text Direction using attribute 'dir'-->
+    <div dir="auto">
+        <h2>Directional Psuedo Clases Example</h2>
+        <p>Paragraph Direction to be right.</p>
+    </div>
+    
+</body>
+</html>

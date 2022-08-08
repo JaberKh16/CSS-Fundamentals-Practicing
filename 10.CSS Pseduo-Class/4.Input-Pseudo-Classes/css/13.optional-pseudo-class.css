@@ -1,0 +1,9 @@
+/* :optional selects only the <input> elements which input isn't required means don't
+    have attribute 'required' set on it.
+*/
+
+input:optional{
+    border: 3px solid red;
+    color: green;
+    border-width: 3px;
+}

@@ -1,0 +1,6 @@
+/* :out-of-range pseudo class checks for the limit range which is out the 'max' attribute */
+
+input:out-of-range{
+    color:red;
+    border:2px solid red;
+}

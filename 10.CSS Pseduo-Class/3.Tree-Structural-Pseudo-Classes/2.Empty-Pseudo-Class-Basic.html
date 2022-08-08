@@ -1,0 +1,31 @@
+<!--
+    :empty Pseudo Class Example
+    ==========================
+    :empty Pseudo Class will select for the HTML Element
+    which has no content inside it means all empty elements 
+    will be selected by this :empty pseudo class.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty Pseudo Class</title>
+    <link rel="stylesheet" href="./css/2.empty-pseudo-class.css">
+</head>
+<body>
+    <h2>Working With Empty Content Below</h2>
+    <div class="empty-div">
+        <!-- I will be pink in older browsers because of the whitespace around this comment. -->
+    </div>
+    <div class="empty-div">
+        <p><!-- I will be pink in all browsers because of the non-collapsible whitespace and elements around this comment. --></p>
+    </div>
+    <div class="empty-div">
+        <p>Content Paragraph</p>
+        <!--Creating <p> ... </p> tag with empty content-->
+        <p> </p>
+    </div>
+</body>
+</html>

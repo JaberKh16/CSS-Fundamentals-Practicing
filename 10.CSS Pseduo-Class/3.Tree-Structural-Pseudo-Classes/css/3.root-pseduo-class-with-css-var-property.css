@@ -1,0 +1,16 @@
+/* 
+    var() is CSS Variable Property which is used to set customized
+    varible where,
+        --var_name      ; used to create customized variable 
+        var(--var_name) ; used to call that customized variable
+*/
+
+:root{
+    --red-color: #f36366;
+    --font-setting: italic;
+}
+
+li{
+    color: var(--red-color);
+    font-style: var(--font-setting);
+}

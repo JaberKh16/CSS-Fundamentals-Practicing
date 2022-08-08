@@ -1,0 +1,20 @@
+div{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #425;
+}
+
+h1{
+    color:darkgreen;
+    text-decoration: underline dashed darkgreen;
+    text-align: center;
+}
+
+h2{
+    color:darkolivegreen;
+}
+
+h2 ~ p{
+    color:darkslategray;
+    border: 1px solid slategray;
+}

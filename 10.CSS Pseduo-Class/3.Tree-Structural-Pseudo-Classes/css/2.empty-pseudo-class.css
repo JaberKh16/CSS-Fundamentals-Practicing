@@ -1,0 +1,15 @@
+h2{
+    color:blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.empty-div{
+    background-color:#b1a323;
+    width: 200px;
+    height: 200px;
+}
+
+.empty-content:empty{
+    color: black;
+}
