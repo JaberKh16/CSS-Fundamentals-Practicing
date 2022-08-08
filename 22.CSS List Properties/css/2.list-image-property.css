@@ -1,0 +1,10 @@
+/*
+  Property:
+    list-style-image: url()
+  
+  just need to provide the url() where url() can hold internal image from drive or any web url
+*/
+
+ul > li {
+  list-style-image:url("https://mdn.mozillademos.org/files/11981/starsolid.gif");  
+}

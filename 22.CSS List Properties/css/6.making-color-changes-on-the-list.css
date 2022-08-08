@@ -1,0 +1,28 @@
+h1{
+  color: blueviolet;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.ordr-list-changes{
+    background: #ffff88;
+    padding: 30px;
+    list-style-type: lower-roman;
+}
+
+ol > li{
+  background: #ff55e5;
+  padding: 15px;
+  margin: 25px;
+}
+
+.unordr-list-changes{
+  background: #ff889950;
+  padding: 50px;
+  list-style-type: lower-latin;
+}
+
+ul > li{
+  background: #44e5f5;
+  margin: 15px;
+}

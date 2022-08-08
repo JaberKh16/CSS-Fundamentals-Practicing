@@ -1,0 +1,8 @@
+/*
+Property:
+    list-style: list-style-type, list-style-position, list-style-image
+*/
+
+.shorthand-prop{
+    list-style: none inside url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
+}
