@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+}
+
+div:nth-child(1){
+    background-color:blueviolet;
+}
+
+div:nth-child(2){
+    background-color:crimson;
+    /*opacity: 0.7;
+    */transition: all 3s;
+    /*mix-blend-mode: color;
+    *//*mix-blend-mode: darken;
+    *//*mix-blend-mode: exclusion;
+    */mix-blend-mode: screen;
+    filter: brightness(60%) hue-rotate(45deg);
+}
+
+div:nth-child(1):hover + div:nth-child(2){
+    margin-top:-300px;
+}

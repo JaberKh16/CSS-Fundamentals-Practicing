@@ -1,0 +1,17 @@
+Blend Mode Based Articles
+=========================
+1) https://tympanus.net/codrops/css_reference/mix-blend-mode/
+2) https://tympanus.net/codrops/css_reference/background-blend-mode/ 
+3) https://pawelgrzybek.com/make-some-magic-with-css-blend-modes/
+4) https://codepen.io/bennettfeely/pen/DLqJWE 
+
+Blend Mode Based Online Tools
+=============================
+1) https://pawelgrzybek.com/make-some-magic-with-css-blend-modes/
+2) https://una.im/bokeh/
+3) https://una.im/3d-effect/
+4) codepen.io/bennettfeely/
+5) https://ilyashubin.github.io/FilterBlend/
+6) https://www.sarasoueidan.com/demos/css-blender/
+7) https://cssduotone.com/
+

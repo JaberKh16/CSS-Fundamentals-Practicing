@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: #b3a816;
+    background-image:url(https://unsplash.it/id/132/500/500)
+                    url(https://unslpash.it/id/133/500/500);
+    background-position: 0 0 100% 100%;
+    background-size: 250px;
+    filter: hue-rotate(60deg);
+    background-blend-mode: multiply  saturation;
+}
