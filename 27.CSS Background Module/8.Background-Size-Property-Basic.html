@@ -1,0 +1,36 @@
+<!--
+    CSS Background Size Property
+    ============================
+    CSS 'background-size' property is used to set the background
+    size for the 'background-image' property.
+
+    'background-size' property supports some following values:
+        1) auto             ; denotes the auto behavior which is by default
+        2) contain          ; denotes the aspect ratio of the box, then apply accordingly with image dimension, it
+                            denotes the full image is visible inside the container if that means if the image have 
+                            extra spaces inside it it will contain the spaces.
+        3) cover            ; denotes to take the 100% coverance, doesn't care about image dimension, it takes the
+                            aspect ratio of the container which has the highest aspect ratio either on width(if landscapping 
+                            type devices) or height(if portrait type devices) ratio whichover has the highest ratio image 
+                            will take that part of 100% coverance.
+        4) numeric-units    ; denotes resizing with numeric units value, where width and height is required as value.
+                            if single value is specified then it will be width value and the height is automatically 
+                            adjusted to keep the aspect ratio, otherhand if two values specified then 
+                            it will be refered to width and height value.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Background Size Property</title>
+    <link rel="stylesheet" href="./css/8.background-size-property.css">
+</head>
+<body>
+    <h2>Example Of Background Size Property-background-size</h2>
+    <div class="background-size-property"></div>
+</body>
+</html>

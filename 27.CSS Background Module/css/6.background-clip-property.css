@@ -1,0 +1,45 @@
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+*{
+    margin: 0px;
+    /* box-sizing: content-box; */
+}
+
+div{
+    margin-bottom:20px;
+}
+
+
+.background-clipping-property-paddingbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #0003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+.background-clipping-property-contentbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #0003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+.background-clipping-property-borderbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #0003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}

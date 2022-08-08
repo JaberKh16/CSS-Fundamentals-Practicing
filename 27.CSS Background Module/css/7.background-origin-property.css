@@ -1,0 +1,39 @@
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom:30px;
+}
+
+div{
+    margin:20px;
+}
+
+.background-origin-property-borderbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.background-origin-property-contentbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.background-origin-property-paddingbox-value{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: 25px solid #003;
+    background-image: url(https://picsum.photos/400/400);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}

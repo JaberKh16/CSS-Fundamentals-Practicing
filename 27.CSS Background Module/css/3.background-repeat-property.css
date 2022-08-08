@@ -1,0 +1,23 @@
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom:30px;
+}
+
+.background-repeat-property{
+    width: 800px; 
+    height: 800px;
+    border:3px solid;
+    /* If background image dimension is smaller than 
+    the actual 'height' and 'width' property then image 
+    will be repeated though by default 
+    'background-repeat' property default value is 'repeat' */
+    background-image: url(https://picsum.photos/300/300);
+    /* background-repeat: space; */
+    /* background-repeat: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat; */
+    background-repeat: round; /* change values and see the difference */
+}

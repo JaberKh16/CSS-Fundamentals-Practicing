@@ -1,0 +1,11 @@
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom:30px;
+}
+
+.background-color-property{
+    width: 200px;
+    height: 200px;
+    background-color: #45002f;
+}
