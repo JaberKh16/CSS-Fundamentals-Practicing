@@ -1,0 +1,21 @@
+h2{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.outline-dashed{
+    outline: 5px dashed;
+}
+
+.outline-dotted-red{  
+    outline: 6px dotted red;
+}
+
+.outline-solid-yellow{
+    outline: 5px solid yellow;
+}
+
+.outline-thick-ridge-pink{
+    outline: thick ridge pink;
+}

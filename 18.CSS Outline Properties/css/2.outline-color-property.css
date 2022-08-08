@@ -1,0 +1,23 @@
+h2{
+  color:blue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.outline-solid-red{
+  border: 5px dotted black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+.outline-double-green{
+  border: 5px dotted black;
+  outline-style: double;
+  outline-color: green;
+}
+
+.outline-outset-yellow{
+  border: 5px dotted black;
+  outline-style: outset;
+  outline-color: yellow;
+}

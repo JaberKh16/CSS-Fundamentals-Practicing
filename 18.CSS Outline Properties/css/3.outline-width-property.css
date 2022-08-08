@@ -1,0 +1,33 @@
+h2{
+  color:blue;
+  text-align:center;
+  text-decoration: underline;
+}
+
+.outline-thin-prop{
+  border: 5px solid lightgrey;
+  outline-style: solid;
+  outline-color: green;
+  outline-width: thin;
+}
+
+.outline-medium-prop{
+  border: 5px solid lightgrey;
+  outline-style: solid;
+  outline-color: green;
+  outline-width: medium;
+}
+
+.outline-thick-prop{
+  border: 1px solid lightgrey;
+  outline-style: solid;
+  outline-color: green;
+  outline-width: thick;
+}
+
+.outline-unitsvalue-prop{
+  border: 5px solid lightgrey;
+  outline-style: solid;
+  outline-color: green;
+  outline-width: 6px;
+}

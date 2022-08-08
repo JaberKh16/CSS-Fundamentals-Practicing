@@ -1,0 +1,16 @@
+/* 
+Outline Offset is used to provide a internal spacing area from
+the content border as a outline. 
+*/
+
+h2{
+  text-decoration: underline;
+}
+
+p{
+    margin: 30px;
+    background-color:yellow;
+    border: 2px solid black;
+    outline: 3px solid red;
+    outline-offset: 15px;
+}
