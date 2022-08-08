@@ -1,0 +1,24 @@
+div{
+    /* here we can see that the width is increased by 300px + 25px = 325px;*/
+    border: 3px solid black;
+}
+
+.first-div{
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;  /* box-sizing resolve the maintainence of width propert to b e exact what is specified */
+}
+
+.second-div{
+    width: 300px;
+    padding: 12px;
+    box-sizing: content-box;
+}
+
+.inside-first-div{
+    padding: 25px;
+}
+
+.inside-second-div{
+    padding: 25px;
+}
