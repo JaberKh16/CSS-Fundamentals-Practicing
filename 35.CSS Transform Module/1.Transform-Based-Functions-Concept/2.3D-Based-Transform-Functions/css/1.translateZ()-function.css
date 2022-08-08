@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card-translateZ-property{
+    width: 100vw;
+    height: 100vw;
+    background-color:darkgrey;
+    position:absolute;
+    top:20%;
+    left:0%;
+    border-radius:10px;
+    perspective:500px;
+}
+
+.button-property{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius:10px;
+    text-align: center;
+    transition: 1s;
+    transform: translateZ(120px);
+}
+
+.button-property:nth-child(1){
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+
+.button-property:nth-child(2){
+    position:absolute;
+    top:25%;
+    left:50%;
+}
+
+.button-property:nth-child(3){
+    position:absolute;
+    top:25%;
+    left:70%;
+}

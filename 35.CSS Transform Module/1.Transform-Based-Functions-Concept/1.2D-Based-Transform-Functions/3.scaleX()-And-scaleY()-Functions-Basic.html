@@ -1,0 +1,40 @@
+<!--
+    CSS Transform Scalar Functions- scaleX() and ScaleY()
+    =====================================================
+    CSS Transform Module Scalar Function such as - scaleX() and
+    scaleY() functions are used to scaleup or scaledown any element.
+
+    Syntax:
+        1) scaleX(x-offset-value)   ; 'x-offset-value' value to scaling towards x-axis.
+                                    Can take both positive(+) to scaleup and negative(-)
+                                    to scaledown any element.
+        2) scaleY(y-offset-value)   ; 'y-offset-value' value to scaling towards x-axis.
+                                    Can take both positive(+) to scaleup and negative(-)
+                                    to scaledown any element.
+
+    For the scaleX() and scaleY() scaling is done with respective to its actual setted 
+    'height' and 'width' property. As a value both of the functions can take positive(+) 
+    or negative(-) value that can be passed as parameter. If passed value is 
+    positive(+) then scaling(maybe up or down) is done without flipping and if passed value
+    is negative(-) then scaling(maybe up or down) is done with flipping the element.
+    
+    Example:
+        1) scaleX(-1)  ; denotes flipping towards negative direction on x-axis
+        2) scaleY(-1)  ; denotes flipping towards negative direction on y-axis
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Transform Scalar Functions- scaleX() and scaleY()</title>
+    <link rel="stylesheet" href="./css/3.scaleX()-and-scaleY()-functions-basic.css">
+</head>
+<body>
+    <h2>Example Of Transform Scalar Functions- scaleX() and scaleY()</h2>
+    <div class="div-card1-scaleX-property"></div>
+    <div class="div-card2-scaleY-property"></div>    
+</body>
+</html>

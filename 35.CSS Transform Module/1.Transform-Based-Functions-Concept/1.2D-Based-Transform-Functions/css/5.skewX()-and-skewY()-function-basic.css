@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card1-skewX-property{
+    width: 250px;
+    height: 350px;
+    background-color:brown;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    border-radius: 10px;
+    transform:skewX(45deg);
+    /* transform:skewX(-45deg); */
+}
+
+.div-card2-skewY-property{
+    width: 250px;
+    height: 350px;
+    background-color: darkgoldenrod;
+    position:absolute;
+    top: 85%;
+    left: 30%;
+    border-radius: 10px;
+    transform:skewY(45deg);
+    /* transform:skewY(-45deg); */
+}

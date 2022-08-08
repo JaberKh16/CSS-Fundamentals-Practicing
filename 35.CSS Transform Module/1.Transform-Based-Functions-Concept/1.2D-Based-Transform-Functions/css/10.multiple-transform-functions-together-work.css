@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card-with-multile-transfrom-func-property{
+    width: 250px;
+    height: 350px;
+    background-color: brown;
+    border-radius:10px;
+    position: absolute;
+    top:calc(50vh - 50px);
+    left:calc(50vw - 5px);
+    transition: 1s;
+    transform:scale(1.2, 0.75) translate(50px, 120px) rotate(45deg);
+}
+
+div::before{
+    content: "";
+    display:inline-block;
+    height:2px;
+    width:200px;
+    background-color: #00f;
+    position:absolute;
+    top:50%;
+    left:-50%;
+}
+
+div::after{
+    content: "";
+    display:inline-block;
+    height:200px;
+    width:2px;
+    background-color: #0f0;
+    position:absolute;
+    top:50%;
+    left:-50%;
+}

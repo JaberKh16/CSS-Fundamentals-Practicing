@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card-skew-positive-directional-property{
+    width: 250px;
+    height: 350px;
+    background-color:brown;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    border-radius: 10px;
+    transform:skew(45deg, 40deg);
+}
+
+.div-card-skew-negative-directional-property{
+    width: 250px;
+    height: 350px;
+    background-color:darkorchid;
+    position: absolute;
+    top:85%;
+    left: 30%;
+    border-radius: 10px;
+    transform:skew(-45deg, -25deg);
+}

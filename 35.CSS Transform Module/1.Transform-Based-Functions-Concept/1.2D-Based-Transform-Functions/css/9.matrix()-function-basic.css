@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card-matrix-property{
+    width: 250px;
+    height: 350px;
+    background-color: brown;
+    border-radius:10px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    /*transform: matrix(scale(0.5, 1.5), translate(50px, 120px), skew(45deg, -55deg), rotate(120deg, 90deg));
+    */transform: matrix(0.5 1.5, 50px 120px, 45deg -55deg, 120deg 90deg);
+}

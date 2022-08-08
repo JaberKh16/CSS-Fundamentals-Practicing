@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.div-card-clockwise-rotate-property{
+    width: 250px;
+    height: 350px;
+    background-color:brown;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    border-radius: 10px;
+    transform:rotate(65deg, 175deg);
+}
+
+.div-card-anticlockwise-rotate-property{
+    width: 250px;
+    height: 350px;
+    background-color:darkorchid;
+    position: absolute;
+    top:85%;
+    left: 30%;
+    border-radius: 10px;
+    transform:rotate(-45deg, -125deg);
+}
