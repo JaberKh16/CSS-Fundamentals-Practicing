@@ -1,0 +1,44 @@
+<!--
+    CSS Grid Module Container Property- 'grid-auto-columns'
+    =======================================================
+    CSS Grid Module Container Gap Property- 'grid-auto-column' is used to determine the
+    individual columns sizes, basically defines control of flow of columns expansion when items having larger content(denotes the column expansion).
+    
+    Syntax:
+        grid-atuo-columns: numeric-units-value/ minmax() 
+
+    If setted with 'numeric-units-value' then all the rows that has been created implicitly 
+    will target through the setted fixed value.
+
+    minmax() function to automatically created rows that will be a minimum of tall and maximum 
+    of auto. Using 'auto' means that the size will look at the content size and will stretch  
+    to give space for the tallest item in a cell.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Container Property- 'grid-auto-columns'</title>
+    <link rel="stylesheet" href="./css/9.grid-auto-columns-property.css">
+</head>
+<body>
+    <h2>Example Of Grid Container Property- 'grid-auto-columns'</h2>
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <!-- <div>
+            <p>Why not just use traditional monolithic applications? Can microservices share a database? How do you deploy microservices in 'the cloud'? Clearly microservices is a complex topic. Developing microservices is a significant paradigm shift from the development of traditional applications.</p>
+        </div> -->
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

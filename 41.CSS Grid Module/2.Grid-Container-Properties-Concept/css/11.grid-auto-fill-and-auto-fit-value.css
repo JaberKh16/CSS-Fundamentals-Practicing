@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d6d6d6af;
+    margin-top: 50px;
+}
+
+h2{
+    color: #212158;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+h3{
+    color: #dab618;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-gap: 5px;
+    font-size:28px;
+    border: 8px solid #2f2f3b;
+    /* grid-template-columns: repeat(auto-fit, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 100px); /* 2 rows explictly defines to be 100px, so implicit rows will take as the height of the content size */
+
+}
+
+
+.grid-container-2 {
+    display: grid;
+    grid-gap: 5px;
+    font-size:28px;
+    border: 8px solid #2f2f3b;
+    /* grid-template-columns: repeat(auto-fit, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 100px); /* 2 rows explictly defines to be 100px, so implicit rows will take as the height of the content size */
+}
+
+.grid-container-1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+
+.grid-container-2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+.grid-container-1 > div:nth-child(1n),
+.grid-container-2 > div:nth-child(1n) {
+    background-color: #309e6b;	
+}
+
+.grid-container-1 > div:nth-child(3n),
+.grid-container-2 > div:nth-child(3n) {
+    background-color: #326096;
+}
+
+.grid-container-1 > div:nth-child(2n),
+.grid-container-2 > div:nth-child(2n) {
+    background-color: #c72e29e3;
+}
+
+.grid-container-1 > div:nth-child(4n),
+.grid-container-2 > div:nth-child(4n) {
+    background-color: #664f1d;
+}

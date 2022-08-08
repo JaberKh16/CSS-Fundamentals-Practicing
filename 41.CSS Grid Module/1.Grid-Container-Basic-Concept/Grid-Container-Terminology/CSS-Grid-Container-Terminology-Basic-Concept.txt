@@ -1,0 +1,25 @@
+
+CSS Grid Layout Basic Concept
+=============================
+CSS Grid Layout is a layout model that has powerful abilities to control the sizing 
+of boxes and their content. It is two dimensional layout which generally indicates 
+rows and columns in particular.
+
+
+
+Grid Terminology
+================
+Grid Layout propose some terminology to understand its theoretical 
+perspective to know about its layout contains which are the following:
+    
+	a) Grid Container   - denotes the wrapper of the Grid Cells.
+    b) Grid Cells       - denotes the cell/children inside the Grid Container.
+    c) Grid Lines       - denotes the lines which can be either vertical or horizontal that
+                        divides the grid and separate the columns and rows.
+    d) Grid Track       - denotes the either the Grid Row or Grid Column, now to specify that 
+                            1) if its in horizontal position - Grid Row
+                            2) if its in vertical position   - Grid Column
+    e) Grid Area        - denotes a rectangular area space which can be normally consisting of
+                        either 2 by 2 items, 3 by 4 items etc which can applicable to become 
+                        a rectangular based shape.
+    f) Grid Gap/Gutter  - denotes the space between the rows or columns.

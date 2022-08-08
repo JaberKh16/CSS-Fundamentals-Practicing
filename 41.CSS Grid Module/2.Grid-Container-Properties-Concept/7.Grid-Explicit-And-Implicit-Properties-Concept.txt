@@ -1,0 +1,18 @@
+Concept About Explicit And Emplicit Tracks
+==========================================
+Tracks are the gaps between the rows and columns individual items.
+
+Implicit Tracks
+----------------
+Notice when only the 'grid-template-columns' without defining rows has been defined in
+the stylesheet then there are rows can be seen also though those are not defined, how 
+is possible even- well browser automatically define those rows. This way of automatically
+creation of rows is called the Implicit Tracks.
+
+
+Explicit Tracks
+---------------
+Explicit Tracks are defined only the users, it is consisting of columns and
+rows defined with the properties of 'grid-template-rows' and 'grid-template-columns'.
+
+

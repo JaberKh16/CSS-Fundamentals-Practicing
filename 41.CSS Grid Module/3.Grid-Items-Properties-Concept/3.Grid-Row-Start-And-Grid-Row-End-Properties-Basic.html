@@ -1,0 +1,101 @@
+<!--
+    Grid Module Item Properties- 'grid-row-start' and 'grid-row-end'
+    =================================================================
+    Grid Module Item Properties- 'grid-row-start' and 'grid-row-end' is used to 
+    determine the position of grid item along the grid lines they are enclosed in 
+    thoughout the row direction.
+
+    Grid Lines are basically the virtual lines which exists each side of the Grid Tracks.
+    Grid Lines counting generally, start from 1 to n (if left to right default one), 
+    opposite wise n to 1(if right to left) for the columns as well as for the rows.
+
+    'grid-row-start' denotes from which row to be taken as start when a grid items
+    moves, whereas 'grid-row-end' denotes from which row to be taken as end when a 
+    grid items moves.
+
+    Syntax:
+        grid-row-start: numeric-value            // 'numeric-value' can be pos(+)/neg(-) integer value
+        grid-row-end: numeric-value             // 'numeric-value' can be pos(+)/neg(-) integer value
+
+    In above, the 'numeric-value' basically denotes the grid lines number.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Grid Item Properties- 'grid-row-start' and 'grid-row-end'</title>
+    <link rel="stylesheet" href="./css/3.grid-row-start-and-grid-row-end-properties.css">
+</head>
+<body>
+    <h2>Example Of Working With Grid Item Properties- 'grid-row-start' and 'grid-row-end'</h2>
+    <div class="grid-container grid-row-start-pos-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-start-neg-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-end-pos-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-end-neg-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-start-and-end-pos-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-start-and-end-neg-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+    
+</body>
+</html>

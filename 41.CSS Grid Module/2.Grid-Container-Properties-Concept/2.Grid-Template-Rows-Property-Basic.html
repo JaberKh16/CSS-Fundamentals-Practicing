@@ -1,0 +1,49 @@
+<!--
+    CSS Grid Template Property- 'grid-template-rows'
+    ===================================================
+    CSS Grid Template Property- 'grid-template-rows' is used to determines the
+    rows based criterion where it can specify how many rows are required and what
+    sizes each columns would be.
+    
+    'grid-template-rows' property supports following values as it value:
+    
+        a) numeric-units-value 
+            
+            1)  if single value is being passed then all columns will take that size only thus indicates a single row of
+                that specified size, others rows will be having its default size.
+            2)  if multipl values is being passed then all rows will take the sizes values according in 
+                the order those values being passsed or organize.
+            3)  it also supports fraction(fr) based unit value which determine how much fraction to be ensured
+                for each rows.
+
+        b) functional notation value
+            
+            repeat() functional notation that can be used to determine the repetition of track
+            for rows or columns. 
+            Syntax:     repeat(no-of-tracks, size)   // 'no-of-tracks' denotes the tracks to be repeated, 'size' denotes their size.
+        
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Property- 'grid-template-rows'</title>
+    <link rel="stylesheet" href="./css/2.grid-template-rows-property.css">
+</head>
+<body>
+    <h2>Example Of Grid Template Property- 'grid-template-rows'</h2>
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

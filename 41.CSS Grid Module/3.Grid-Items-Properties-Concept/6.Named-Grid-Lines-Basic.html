@@ -1,0 +1,99 @@
+<!--
+    Grid Module Property- Naming Grid Lines 
+    =======================================
+    Grid Module Item Property- Named Grid Lines Property is used to determine  
+    the grid lines name and then to work with those grids lines use those
+    names to target those grids. Named Grid Lines are essentially provided 
+    extra context of how the grid is structured.
+
+    Grid Lines are basically the virtual lines which exists each side of the Grid Tracks.
+    Grid Lines counting generally, start from 1 to n (if left to right default one), 
+    opposite wise n to 1(if right to left) for the columns as well as for the rows.
+
+    Syntax:
+        grid-template-columns: 1fr 200px [grid-line-name1] 1fr [grid-line-name2] 200px;
+        grid-template-rows: 1fr 200px [grid-line-name1] 1fr [grid-line-name2];
+        grid-column-start: grid-line-name1;
+        grid-row-name: grid-line-name2;
+    
+    In the above, naming grid lines are defined through the [] with a name for the 
+    specified grid lines.
+
+    Named Grid Lines also have some predefined values for denoting the 'start' and 'end' of
+    the grid lines like the following:
+        
+        grid-template-columns: [start] 1fr 200px [grid-line-name1] 1fr 200px [end];
+        grid-template-rows: [start] 1fr 200px [grid-line-name1] 1fr [end];
+
+    
+    To work with the Spanning with Name Grid Lines, need to specify both starting and ending
+    value, otherwise spanning won't work. Now see the following:
+        
+        grid-template-columns: [start] 1fr 200px [grid-line1] 1fr 200px [end];
+        grid-template-rows: [start] 1fr 200px [grid-line1] 1fr [end];
+        grid-column-start: span grid-line1;
+        grid-column-end: span end;
+
+    Providing a multiple naming for the single grid line is also possible and to provide
+    a multiple can be done through a space between two names which can be like the following:
+        
+        grid-template-columns: [start] 1fr 200px [grid-line1 grid-line2] 1fr 200px [end];
+        grid-template-rows: [start] 1fr 200px [grid-line1 grid-line2] 1fr [end];
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Named Grid Lines</title>
+    <link rel="stylesheet" href="./css/6.named-grid-lines.css">
+</head>
+<body>
+    <h2>Example Of Working With Naming Grid Lines</h2>
+    <div class="grid-container first-item-to-third-column-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container third-item-to-first-column-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container third-item-to-third-row-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container first-item-to-bottom-right-cell-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+</body>
+</html>

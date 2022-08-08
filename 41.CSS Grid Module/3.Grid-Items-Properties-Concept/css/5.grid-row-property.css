@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d6d6d6af;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 30px 80px;
+}
+
+h2{
+    color: #212158;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+
+.grid-container{
+    margin:50px 0px;
+    text-align: center;
+    font-size:28px;
+    border: 2px solid #2f2f3b;
+    color: #fff;
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: repeat(4, minmax(100px, auto));
+}
+
+
+.item {
+    font-size: 1.6rem;
+    padding: 30px;
+    background: #0048AA;
+    color: #fff;
+    border: 2px solid #eee;
+}
+
+.grid-container > div:nth-child(1){
+    background-color:#a52a2a;
+}
+
+.grid-container > div:nth-child(2){
+    background-color:#2a47a5;
+}
+
+
+.grid-container > div:nth-child(3){
+    background-color:#768113;
+}
+
+.grid-container > div:nth-child(4){
+    background-color:#c527b0;
+}
+
+
+.grid-container > div:nth-child(5){
+    background-color:#1c8113;
+}
+
+.grid-container > div:nth-child(6){
+    background-color:#81132b;
+}
+
+.grid-container > div:nth-child(7){
+    background-color:#c75d16;
+}
+
+
+.grid-container > div:nth-child(8){
+    background-color:#136781;
+}
+
+
+
+.grid-row-pos-value > div:nth-child(5){
+    grid-row: 3;
+}
+
+
+.grid-row-neg-value > div:nth-child(2){
+    grid-row: -1;
+}
+
+
+.grid-row-with-pos-and-neg-value > div:nth-child(4){
+    grid-row: 1 / 3;
+}
+
+
+.grid-row-with-span-keyword-value > div:nth-child(1){
+    grid-row: 1 / span 3;
+}

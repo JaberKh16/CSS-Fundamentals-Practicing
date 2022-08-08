@@ -1,0 +1,101 @@
+<!--
+    Grid Module Item Properties- 'grid-column-start' and 'grid-column-end'
+    ======================================================================
+    Grid Module Item Properties- 'grid-column-start' and 'grid-column-end' is used to 
+    determine the position of grid item along the grid lines they are enclosed in 
+    thoughout the column direction.
+
+    Grid Lines are basically the virtual lines which exists each side of the Grid Tracks.
+    Grid Lines counting generally, start from 1 to n (if left to right default one), 
+    opposite wise n to 1(if right to left) for the columns as well as for the rows.
+
+    'grid-column-start' denotes from which column to be taken as start when a grid items
+    moves, whereas 'grid-column-end' denotes from which column to be taken as end when a 
+    grid items moves.
+
+    Syntax:
+        grid-column-start: numeric-value            // 'numeric-value' can be pos(+)/neg(-) integer value
+        grid-column-end: numeric-value             // 'numeric-value' can be pos(+)/neg(-) integer value
+
+    In above, the 'numeric-value' basically denotes the grid lines number.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Grid Item Properties- 'grid-column-start' and 'grid-column-end'</title>
+    <link rel="stylesheet" href="./css/2.grid-column-start-and-grid-column-end-properties.css">
+</head>
+<body>
+    <h2>Example Of Working With Grid Item Properties- 'grid-column-start' and 'grid-column-end'</h2>
+    <div class="grid-container grid-column-start-pos-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-column-start-neg-value">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+
+    <div class="grid-container grid-column-end-pos-value">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+
+    <div class="grid-container grid-column-end-neg-value">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+
+    <div class="grid-container grid-column-start-and-end-pos-value">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+
+    <div class="grid-container grid-column-start-and-end-neg-value">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+</body>
+</html>

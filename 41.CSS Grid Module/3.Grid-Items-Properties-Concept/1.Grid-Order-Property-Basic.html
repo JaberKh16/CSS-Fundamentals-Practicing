@@ -1,0 +1,40 @@
+<!--
+    Grid Module Item Property- 'order'
+    =================================
+    Grid Module Item Property- 'order' is used to determine the ordering of grid
+    items inside a grid container. It is used to shuffle the grid item thoughout
+    the container.
+    Syntax:
+        order: numeric-value            // 'numeric-value' can be pos(+)/neg(-) integer value
+    
+    Normally, lower order value means the item would be placed before other items towards
+    the top left cell. Other than, if two items having the same order value then, to break
+    the conflict HTML DOM will be taken consider to order the items where the ordering of
+    items inside the container will denote which items to go where.
+
+    By default, 'order' value for any grid items is 0.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Grid Item Property- 'order'</title>
+    <link rel="stylesheet" href="./css/1.grid-order-property.css">
+</head>
+<body>
+    <h2>Example Of Working With Grid Item Property- 'order'</h2>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+</body>
+</html>

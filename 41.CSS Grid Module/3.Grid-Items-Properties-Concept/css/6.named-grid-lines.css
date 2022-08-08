@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d6d6d6af;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 30px 80px;
+}
+
+
+/* .container {
+    background: #fff;
+    margin-top: 30px;
+    margin-right: 30px;
+} */
+
+
+h2{
+    color: #212158;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.grid-container{
+    margin:50px 0px;
+    text-align: center;
+    font-size:28px;
+    border: 2px solid #2f2f3b;
+    color: #fff;
+    display: grid;
+    /* grid-template-rows: repeat(2, 50px);
+    grid-template-columns: repeat(4, minmax(100px, auto)); */
+}
+
+.grid-item {
+    font-size: 1.6rem;
+    padding: 30px;
+    background: #0048AA;
+    color: #fff;
+    border: 2px solid #eee;
+}
+
+.grid-container > div:nth-child(1){
+    background-color:#a52a2a;
+}
+
+.grid-container > div:nth-child(2){
+    background-color:#2a47a5;
+}
+
+
+.grid-container > div:nth-child(3){
+    background-color:#768113;
+}
+
+.grid-container > div:nth-child(4){
+    background-color:#c527b0;
+}
+
+
+.grid-container > div:nth-child(5){
+    background-color:#1c8113;
+}
+
+.grid-container > div:nth-child(6){
+    background-color:#81132b;
+}
+
+.grid-container > div:nth-child(7){
+    background-color:#c75d16;
+}
+
+
+.grid-container > div:nth-child(8){
+    background-color:#136781;
+}
+
+
+.first-item-to-third-column-container {
+    grid-template-columns: 1fr 1fr [thirdColumnLine] 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.first-item-to-third-column-container > .grid-item:first-of-type {
+    grid-column-start: thirdColumnLine;
+}
+
+.third-item-to-first-column-container {
+    grid-template-columns: [firstColumnLine] 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.third-item-to-first-column-container > .grid-item:nth-of-type(3) {
+    grid-column-start: firstColumnLine;
+}
+
+.third-item-to-third-row-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px [thirdRowLine] 100px;
+}
+
+.third-item-to-third-row-container > .grid-item:nth-of-type(3) {
+    grid-row-start: thirdRowLine;
+}
+
+.first-item-to-bottom-right-cell-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr [end];
+    grid-template-rows: 100px 100px 100px [firstRowLine];
+}
+
+.first-item-to-bottom-right-cell-container > .grid-item:first-of-type {
+    grid-column-start: end;
+    grid-row-start: firstRowLine;
+}

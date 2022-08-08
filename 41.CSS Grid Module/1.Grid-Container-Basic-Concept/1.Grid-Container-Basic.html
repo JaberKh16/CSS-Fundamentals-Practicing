@@ -1,0 +1,76 @@
+<!--
+    CSS Grid Layout Basic Concept
+    =============================
+    CSS Grid Layout is a layout model that has powerful abilities to 
+    control the sizing of boxes and their content. It is two dimensional
+    layout which generally indicates rows and columns in particular.
+    
+    Grid Terminology
+    ----------------
+    Grid Layout propose some terminology to understand its theoretical 
+    perspective to know about its layout contains which are the following:
+    
+    a) Grid Container   - denotes the wrapper of the Grid Cells.
+    b) Grid Cells       - denotes the cells inside the Grid Container.
+    c) Grid Lines       - denotes the virtual lines which exists on each side of Grid Tracks 
+                        that basically either on vertical side or horizontal side to divide 
+                        grid and separate the columns and rows. Grid Line counting start from 
+                        1 to n (if left to right default one), opposite wise n to 1(if right to left)
+                        for the columns as well as for the rows.
+    d) Grid Track       - denotes the either the Grid Row Height or Grid Column Width, now to specify that 
+                            1) if its in horizontal position - Grid Row
+                            2) if its in vertical position   - Grid Column
+    e) Grid Area        - denotes a rectangular area space which can be normally consisting of
+                        either 2 by 2 items, 3 by 4 items etc which can applicable to become 
+                        a rectangular based shape.
+    f) Grid Gap/Gutter  - denotes the spaces between the rows or columns(basically grid track).
+                        although can't possible to configure individual gap size between 
+                        two grid tracks.
+    g) Grid Item        - denotes the child element in a grid which can be fit inside a cell.
+
+    
+
+    Grid Container Display Property
+    -------------------------------
+    Grid Supports two kinds of values to form a grid based layout which can be
+    set by the property 'display' where 'display' property supports two types of 
+    values for the grid layout which are the following:
+        
+        a) display: grid            ; sets the items in rows fashion which by default take the viewport
+                                    width means whole width of page.
+        b) display: grid-inline     ; will shrink the items sizes based on the content size, unless the grid
+                                    container being set the specific size.
+
+    Advantage Of Grid Layout
+    ------------------------
+    1) Flexiblity while changing the layouts or adjusting the content which wasn't fix by Flexbox
+    2) less markup need to design layouts, reduces nesting of HTML
+    3) Focusses on positioning child elements into a specific position inside of a single parent element. 
+    4) works with responsive web design.
+    4) supported by most of the browsers
+    5) higly customizable, rows and columns can be of different sizes.
+    4) skips the use of frameworks like - Bootstrap
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Container Basic Concept</title>
+    <link rel="stylesheet" href="./css/1.grid-container-basic.css">
+</head>
+<body>
+    <h2>Example Of Grid Container Basic Concept</h2>
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

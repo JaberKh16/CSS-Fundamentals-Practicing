@@ -1,0 +1,56 @@
+<!--
+    Grid Module Container Property Value- 'auto-fit' and 'auto-fill'
+    ================================================================
+    'auto-fit' value is trying to fit as many items possible to the grid container where
+    in the container every individual items will take similar kind of height and width
+    to the grow or shrink to fit the whole container.
+
+    'auto-fill' value is also trying to fill as many items as possible to the grid container
+    where in the container every individual items will take their specified width and height
+    only.
+
+    For example- 
+        
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+    
+    In above, every 100px threshold of spaces will add a new column to the grid container
+    as the size of the grid grows, which is also same for the 'auto-fill' value also at certain
+    point. 'auto-fit' will include those columns of same size are being specified to fit the grid
+    whereas 'auto-fill' will include those many columns as grows it will keep including another
+    columns even if there has no column to add.
+
+    Now, under the hood, both 'auto-fit' and 'auto-fill' added new column tracks as the grid grows
+    but 'auto-fit' added the new column track having 0px in width whereas 'auto-fill' keep adding new 
+    column tracks which are basically empty.  
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid auto-fit and auto-fill Value Work</title>
+    <link rel="stylesheet" href="./css/11.grid-auto-fill-and-auto-fit-value.css">
+</head>
+<body>
+    <h2>Working Mechanism Of Grid Property Values- 'auto-fit' and 'auto-fill'</h2>
+    <h3>Grid 'auto-fit' Value Work</h3>
+    <div class="grid-container-1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+    <h3>Grid 'auto-fill' Value Work</h3>
+    <div class="grid-container-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>

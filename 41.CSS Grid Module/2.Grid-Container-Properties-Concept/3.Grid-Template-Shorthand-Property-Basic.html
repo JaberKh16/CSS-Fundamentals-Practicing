@@ -1,0 +1,53 @@
+<!--
+    CSS Grid Template Shorthand Property- 'grid-template'
+    =====================================================
+    CSS Grid Template Shorthand Property- 'grid-template' is used to determines the both
+    rows and columns based criterion where it can specify how many rows and columns are required 
+    and what sizes each rows and columns would be.
+    
+    Syntax:
+        grid-template: 'grid-template-rows' / 'grid-template-columns'
+
+    'grid-template' property supports following values as it value:
+    
+        a) numeric-units-value 
+            
+            1)  if single value is being passed then all rows will take that size only for their size.
+            2)  if multipl values is being passed then all rows will take the sizes values according in 
+                the order those values being passsed or organize.
+            3)  it also supports fraction(fr) based unit value which determine how much fraction to be ensured
+                for each rows.
+
+        b) functional notation value
+            
+            repeat() functional notation that can be used to determine the repetition of track
+            for rows or columns. 
+            Syntax:     repeat(no-of-tracks, size)   // 'no-of-tracks' denotes the tracks to be repeated, 'size' denotes their size.
+    
+    where, values can be passed for both 'grid-template-rows' and 'grid-template-columns' together into the
+    'grid-template' property.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Shorthand Property- 'grid-template'</title>
+    <link rel="stylesheet" href="./css/3.grid-template-shorthand-property.css">
+</head>
+<body>
+    <h2>Example Of Grid Template Shorthand Property- 'grid-template'</h2>
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

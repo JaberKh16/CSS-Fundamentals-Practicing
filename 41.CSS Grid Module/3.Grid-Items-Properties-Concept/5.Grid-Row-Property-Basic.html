@@ -1,0 +1,75 @@
+<!--
+    Grid Module Item Property- 'grid-row' 
+    =====================================
+    Grid Module Item Property- 'grid-row' is a shorthand property which is used to 
+    determine the position of grid item along the grid lines they are enclosed in 
+    thoughout the row direction.
+
+    Grid Lines are basically the virtual lines which exists each side of the Grid Tracks.
+    Grid Lines counting generally, start from 1 to n (if left to right default one), 
+    opposite wise n to 1(if right to left) for the columns as well as for the rows.
+
+    'grid-row' property takes two properties- 'grid-row-start' denotes from which 
+    row to be taken as start when a grid items moves and 'grid-row-end' denotes 
+    from which row to be taken as end when a grid items moves.
+
+    Syntax:
+        grid-row: 'grid-row-start' / 'grid-row-end'            
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Grid Item Property 'grid-row'</title>
+    <link rel="stylesheet" href="./css/5.grid-row-property.css">
+</head>
+<body>
+    <h2>Example Of Working With Grid Item Property- 'grid-row'</h2>
+    <div class="grid-container grid-row-pos-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-neg-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-with-pos-and-neg-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+
+    <div class="grid-container grid-row-with-span-keyword-value">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+</body>
+</html>
