@@ -1,0 +1,53 @@
+<!--
+    CSS Table Empty Cells Property
+    ==============================
+    'empty-cells' property is used to identify and control
+    the empty cells in the table.
+
+    'empty-cells' property support some following values:
+    1) show     ; denotes the showcasing of empty cells which is by default behavior
+    2) hide     ; denotes the hideness of empty cells(means complete collapsing of empty cells)
+
+    Note: To work with the 'empty-cells' property with 'hide' value then 'border-collapse' property
+          value needs to be 'separate' otherwise wont work with the empty cells.
+-->
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Working With Table Empty Cells Property- 'empty-cells' </title>
+    <link rel="stylesheet" href="./css/3.empty-cells-property-basic.css">
+</head>
+<body>
+  <h2>Example Of Table Empty Cells Property- 'empty-cells'</h2>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td></td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td></td>
+    </tr>
+  </table>        
+</body>
+</html>

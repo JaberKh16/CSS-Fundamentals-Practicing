@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+}
+
+h2{
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+p{
+  color: #2f995b;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+th, td{
+  text-align: left;
+  padding: 8px;
+  border: 1px solid;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+div{
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow: auto;
+}
+
+caption {
+  /* caption-side: top; */
+  caption-side: bottom;
+}

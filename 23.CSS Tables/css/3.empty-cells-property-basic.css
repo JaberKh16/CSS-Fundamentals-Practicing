@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+table{
+    border-collapse: separate;
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    /* empty-cells:hide; */
+}
+
+th{
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+}
+
+td{
+    vertical-align: bottom;
+    padding: 15px;
+    empty-cells:hide;
+}
+
+tr:hover{
+    background-color: chartreuse;
+}
