@@ -1,0 +1,8 @@
+.visible-content{
+    visibility: visible;
+}
+
+.hidden-content
+{
+    visibility: hidden;
+}

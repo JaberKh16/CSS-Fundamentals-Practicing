@@ -1,0 +1,14 @@
+.section-heading{
+    color:brown;
+    text-decoration: underline;
+}
+
+/* 
+if display:none then nothing will be displayed or 
+lost visibility on web page. 
+*/
+ul > li{
+    display: none; 
+    height: 40px;
+    width: 80px;
+}

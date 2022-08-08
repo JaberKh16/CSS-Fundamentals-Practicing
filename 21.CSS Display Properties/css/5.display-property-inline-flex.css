@@ -1,0 +1,21 @@
+*{
+    color: brown;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul > li{
+    display:inline-flex;
+    border: 1px solid blue;
+    margin: 15px;
+    padding: 0px;
+    height: 40px;
+    width: 240px;
+}
+
+a:hover{
+    /* display: contents; */
+    color: green;
+}
