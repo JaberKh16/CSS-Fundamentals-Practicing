@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.masking-property{
+    width:100vw;
+    height:100vh;
+    border: 2px solid;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url("../img/1.car-images.png");
+}
+
+.masked-writing-content{
+    color: #11745e;
+    letter-spacing: -0.05px;
+    font-size:8vw;
+    text-align: center;
+    margin:0px;
+    padding:2.4em;
+    outline: none;
+    -webkit-mask: url("../img/1.car-images.png") center top no-repeat;
+    -webkit-mask-size: 100%;
+}

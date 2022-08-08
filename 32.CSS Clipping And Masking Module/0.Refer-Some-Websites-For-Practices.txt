@@ -1,0 +1,9 @@
+Online Clipping Based Tools
+===========================
+1) https://bennettfeely.com/clippy/
+2) https://cssplant.com/clip-path-generator
+
+Online Article Based Websites
+=============================
+1) https://css-tricks.com/almanac/properties/c/clip-path/
+2) https://codepen.io/tag/clip-path

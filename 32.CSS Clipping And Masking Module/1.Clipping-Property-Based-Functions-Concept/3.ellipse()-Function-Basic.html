@@ -1,0 +1,42 @@
+<!--
+    CSS Clipping Property Function- ellipse()
+    ========================================
+    'ellipse()' clip-path function is used to provide ellipsed based 
+    clipping functionality.
+    Syntax:
+        ellipse(r1, r2 at position)
+    Where, 
+        a) r1, r2       - can take two radius values -r1, r2 and as a value any 
+                        numeric unit value can have.
+                        'r1' and 'r2' can also support predetermined values 'closest-side' 
+                        and 'furthest-side' values.
+        b) position     - x-offset y-offset to determine the positioning of the circle
+    
+    'ellipse()' function supported values are the following:
+    1) ellipse()                            ; denotes default radius values based ellipse clip 
+    2) ellipse(10px, 20px)                  ; denotes r1=10px and r2=20px radius values based ellipse clip
+    3) ellipse(10px 20px at 50px 100px)      ; denotes r1=10px and r2=20px radius values ellipsed and it 
+                                            will be position at 50px from x-offset and 100px from y-offset.
+    
+    'ellipse()' function with predetermined values at 'radius-value'
+    Example:
+        ellipse(closest-siden farthest-side at 50px 100px)   
+    Above example, denotes take radius-values r1=' closest-side' and r2='farthest-side'
+    and position will 50px from x-offset, 100px from y-offset.
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With clip-path: ellipse() Function</title>
+    <link rel="stylesheet" href="./css/3.ellipse()-function-basic.css">
+</head>
+<body>
+    <h2>Example Of Clipping Property- clip-path:ellipse()</h2> 
+    <div class="ellipse-clipped-area"></div>
+</body>
+</html>

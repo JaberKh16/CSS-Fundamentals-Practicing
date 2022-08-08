@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+
+.polygon-clipped-area{
+    height: 500px;
+    width: 400px;
+    background-image: url(https://picsum.photos/400/500);
+    clip-path:polygon(80px 220px, 200px 250px, 50px 120px, 200px 120px);
+}

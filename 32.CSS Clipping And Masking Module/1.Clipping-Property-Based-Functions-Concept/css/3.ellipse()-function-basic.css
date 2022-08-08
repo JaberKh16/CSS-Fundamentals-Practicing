@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+
+.ellipse-clipped-area{
+    height: 500px;
+    width: 400px;
+    background-image: url(https://picsum.photos/400/500);
+    /* clip-path: ellipse(30px 120px); */
+    /* clip-path:ellipse(30px 120px at 200px 150px); */
+    clip-path:ellipse(closest-side farthest-side at 200px 270px); 
+}

@@ -1,0 +1,10 @@
+Clipping Based Property - 'clip-path'
+=====================================
+Cliiping is happening when we want to cut out some portion or area from web page.
+
+'clip-path' Property Values
+---------------------------
+1) inset()
+2) circle()
+3) ellipse()
+4) polygon()

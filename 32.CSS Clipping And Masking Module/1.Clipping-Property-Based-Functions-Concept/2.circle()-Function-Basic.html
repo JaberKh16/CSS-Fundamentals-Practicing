@@ -1,0 +1,40 @@
+<!--
+    CSS Clipping Property Function- circle()
+    ========================================
+    'circle()' clip-path function is used to provide circular based 
+    clipping functionality.
+    Syntax:
+        circle(radius-value at position)
+    Where, 
+        a) radius-value - can take any numeric unit value as radius value of circle.
+                        'radius-value' can support predetermined values 'closest-side' 
+                        and 'furthest-side' values.
+        b) position     - x-offset y-offset to determine the positioning of the circle
+    'circle()' function supported values are the following:
+    1) circle()                      ; denotes default radius value based circle clip 
+    2) circle(10px)                  ; denotes 10px radius value based circle clip
+    3) circle(10px at 50px 100px)    ; denotes circle radius is 10px and it will position at 50px from x-offset 
+                                        and 100px from y-offset.
+    
+    'circle()' function with predetermined values at 'radius-value'
+    Example:
+        circle(closest-side at 50px 100px)   
+    Above example, denotes take radius-value from' closest-side' 
+    and position will 50px from x-offset, 100px from y-offset.
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With clip-path: circle() Function</title>
+    <link rel="stylesheet" href="./css/2.circle()-function-basic.css">
+</head>
+<body>
+    <h2>Example Of Clipping Property- clip-path:circle()</h2> 
+    <div class="circle-clipped-area"></div>
+</body>
+</html>
