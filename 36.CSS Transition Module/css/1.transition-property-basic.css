@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    text-align: center;
+}
+
+.transition-property-div{
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+    margin:250px 450px;
+    border: 3px solid black;
+    transition-property: background-color, width, border-radius;
+}
+
+.transition-property-div:hover{
+    background-color:blue;
+    border-radius: 50%;
+    width: 500px;
+}

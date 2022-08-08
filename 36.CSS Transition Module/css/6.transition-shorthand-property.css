@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    text-align: center;
+}
+
+body{
+    position: relative;
+    background-color:#33333328;
+}
+
+
+.transition-shorthand-property{
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+    border: 3px solid black;
+    transition: background-color 2s ease-in 2s,                
+                width 3s ease-in-out 3s,                
+                border-radius 3s linear 2s,
+                top 2s linear,
+                left 2s linear;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+
+.transition-shorthand-property:hover{
+    background-color:blue;
+    border-radius: 50%;
+    width: 200px;
+    top: 400px;
+    left: 500px;
+}
+

@@ -1,0 +1,38 @@
+<!--
+    CSS Transition Module Property- 'transition-timing-function'
+    ===========================================================
+    CSS Transition Module Property 'transition-timing-function' is used to denote 
+    the distribution of 'transition-duration' type which basically tells how the
+    transition duration would be look like while transition happening.
+    Syntax:
+        transition-timing-function: ease/ease-in/ease-in-out/linear/ease-out
+    
+    'transition-timing-function' property support following values whicha are:
+        1) ease         ; denotes end time is slower, start is faster while transitioning
+        2) linear       ; denotes time distribution is equally distributed while transitioning
+        3) ease-in      ; denotes initially starting will be slow, then it will be faster while transitioning
+        4) ease-out     ; denotes initiallly starting will faster, then end will be slower while transitioning
+        5) ease-in-out  ; denotes initially starting will be slow, at the end willl be slow and in the middle time it
+                        will be faster while transitioning. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Module Property- 'transition-duration'</title>
+    <link rel="stylesheet" href="./css/3.transition-timing-function-property.css">
+</head>
+<body>
+    <h2>Example Of Transition Timing Functions- 'transition-timing-function'</h2>
+    <div>
+        <div class="transition-timing-func-ease"><p>Ease Timing Box</p></div>
+        <div class="transition-timing-func-ease-in"><p>Ease-In Timing Box</p></div>
+        <div class="transition-timing-func-ease-out"><p>Ease-Out Timing Box</p></div>
+        <div class="transition-timing-func-ease-in-out"><p>Ease-In-Out Timing Box</p></div>
+        <div class="transition-timing-func-linear"><p>Linear Timing Box</p></div>
+    </div>
+</body>
+</html>

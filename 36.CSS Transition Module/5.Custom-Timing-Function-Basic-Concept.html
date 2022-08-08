@@ -1,0 +1,32 @@
+<!--
+    CSS Transition Module Property- 'transition-timing-function'
+    ===========================================================
+    CSS Transition Module Property 'transition-timing-function' is used to denote 
+    the distribution of 'transition-duration' type which basically tells how the
+    transition duration would be look like while transition happening. This property
+    support some custiom timing function to control the timing distribution.
+    Syntax:
+        transition-timing-function: cubic-bezier()/steps()
+    
+    'transition-timing-function' property support following values whicha are:
+        1) cubic-bezier()   ; denotes custom timing distribution while transition happening
+        2) setps            ; denotes custom timing steps distribution while transition happening
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Custom Timing Functions- 'transition custom timing function'</title>
+    <link rel="stylesheet" href="./css/5.custom-timning-function-basic.css">
+</head>
+<body>
+    <h2>Example Of Transition Custom Timing Functions</h2>
+    <div>
+        <div class="transition-custom-timing-func-cubicbezier"><p>Cubic-Bezier() Timing Box</p></div>
+        <div class="transition-custom-timing-func-steps"><p>Steps() Timing Box</p></div>
+    </div>
+</body>
+</html>

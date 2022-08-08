@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color:blue;
+    text-decoration:underline;
+    text-align: center;
+}
+
+body{
+    position: relative;
+    background-color:#33333328;
+}
+
+div > p{
+    color:white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* transition-timing-function:steps(5)*/
+.transition-custom-timing-func-cubicbezier{
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+    /*margin:250px 350px;
+    */border: 3px solid black;
+    transition: background-color, width, border-radius;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 3s;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+/* transition-timing-function:steps(5) */
+.transition-custom-timing-func-steps{
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+    /*margin:250px 350px;
+    */border: 3px solid black;
+    transition-property: background-color, width, border-radius;
+    transition-duration: 3s;
+    transition-timing-function: steps(5);
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.transition-custom-timing-func-cubicbezier:hover{
+    background-color:blue;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.transition-custom-timing-func-steps:hover{
+    background-color:blue;
+    border-radius: 50%;
+    width: 200px;
+}
