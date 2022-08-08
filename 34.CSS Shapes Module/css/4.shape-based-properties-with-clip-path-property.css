@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.shape-module-property-with-clip-path-property{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 138, 54);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid #ff27;
+    background-clip: content-box;
+    border-radius: 45%;
+    shape-outside: circle(360px at 15px 50px);
+    clip-path: inset(20px 30px 50px 30px round 50px 30px 20px 10px);
+    shape-margin: 50px;
+    shape-image-threshold: 50px;
+}

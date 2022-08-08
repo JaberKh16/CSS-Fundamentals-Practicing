@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 138, 54);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid #ff27;
+    background-clip: content-box;
+    border-radius: 25%;
+    shape-outside: ellipse(100px 200px);
+    /* shape-margin: 20px; */
+}
+

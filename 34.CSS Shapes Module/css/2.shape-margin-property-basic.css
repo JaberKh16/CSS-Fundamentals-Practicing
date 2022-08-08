@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.shape-outside-property{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 138, 54);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid #ff27;
+    background-clip: content-box;
+    border-radius: 25%;
+    /*shape-outside: border-box;
+    *//*shape-outside: padding-box;
+    *//*shape-outside: content-box;
+    */
+    shape-outside: border-box;
+    shape-margin: 35px;
+}
