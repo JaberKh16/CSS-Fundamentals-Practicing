@@ -1,0 +1,22 @@
+.div-with-caption
+{
+    border: 3px solid green;
+    height: 40px;
+    width: 800px;
+    padding: 25px;
+    margin: 25px;
+    color: darkblue;
+    
+}
+
+.image-caption-div
+{
+    height: 20px;
+    width: 360px;
+    border: 4px solid green;
+    outline: 3px solid blue;
+    padding: 7px;
+    margin: 20px;
+    color: blue;
+    font-size: 20px;
+}

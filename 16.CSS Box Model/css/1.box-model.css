@@ -1,0 +1,11 @@
+h2{
+    color: green;
+    background-color:darkgray;
+    border: 5px solid black;
+    padding: 23px;
+    margin: 20px;
+}
+
+.heading-info{
+    border: 5px solid black;
+}
