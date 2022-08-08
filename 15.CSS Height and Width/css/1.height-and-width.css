@@ -1,0 +1,14 @@
+.first-para
+{
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+
+
+.second-para
+{
+    height: 200px;
+    width: 500px;
+    background-color: red;
+}
