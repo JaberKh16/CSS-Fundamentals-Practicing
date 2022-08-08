@@ -1,0 +1,7 @@
+.overflow-property{
+    height: 120px;
+    width: 200px;
+    background-color: #2f2;
+    overflow: scroll;
+    /* overflow-y: auto; /* y direction scrollbar gets opened */ 
+}

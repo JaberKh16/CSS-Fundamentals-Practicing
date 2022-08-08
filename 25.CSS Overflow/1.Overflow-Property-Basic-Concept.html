@@ -1,0 +1,49 @@
+<!--
+    CSS Overflow Property
+    =====================
+    CSS Overflow Property handles the overflow condition while text content
+    gets overflowed from the box model.
+    By default, overflow is setted as auto.
+
+    Overflow Property Available Values
+    ----------------------------------
+    1) auto     ; autmatically sets the scrollbar as per overfloating direction means if overflowed
+                in x direction then x-ffset scrollbar opened, if y direction overflowed then y-offset 
+                scrollbar gets opened.
+    2) scroll   ; scrollbar apperance for both direction, now if excedding x-offset then x direction scrollbar
+                is active or if excedding y-offset then y direction scrollbar is active.
+    3) visible  ; overflow content can be seen outside the content, no scrollbar panel apperance.
+    4) hidden   ; to hide the overflowed content completly.
+    5) inhert   ; to inherit its parent overflowed property.
+
+    Overflow Property can also be setted through specifying the offset direction
+    
+        1) overflow-x   ; to set x-offset overflow
+        2) overflow-y   ; to set y-offset overflow
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With CSS Overflow Property</title>
+    <link rel="stylesheet" href="./css/1.overflow-property-basic.css">
+</head>
+<body>
+    <div class="overflow-property">
+        <p>
+            The border-image property allows you to specify an image to be
+            used as the border around an element.
+            The border-image property is a shorthand property for:
+            
+            border-image-source
+            border-image-slice
+            border-image-width
+            border-image-outset
+            border-image-repeat
+        </p>
+    </div>
+</body>
+</html>
