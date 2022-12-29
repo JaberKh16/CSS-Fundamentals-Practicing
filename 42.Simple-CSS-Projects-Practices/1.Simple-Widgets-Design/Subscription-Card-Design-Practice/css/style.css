@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+}
+
+/*
+=============================================================================================
+                            Navigational Bar CSS Design
+=============================================================================================
+*/
+
+.main-header-nav{
+    width: 100%;
+    /* height:150px; */
+    background-color: #22254d;
+    /* display:inline-block; */
+    padding:8px 16px;
+    color:#fff;
+}
+
+.main-header-nav > div{
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.man-nav{
+    display: inline-block;
+    text-align: right;
+    width:calc(100% - 200px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+
+.main-nav__item{
+    display: inline-block;
+    padding:15px;
+    font-size:18px;
+}
+
+/*
+=============================================================================================
+                            Navigational Bar CSS Design
+=============================================================================================
+*/
+
+
+main{
+    background-image: url(https://picsum.photos/2020/1004);
+    height: 60%;
+    margin-top: 20pxs;
+}
+
+
+/*
+=============================================================================================
+                    Subscription Product Card CSS Design
+=============================================================================================
+*/
+.subscription-overview h1{
+    color: rgb(19, 19, 131);
+    background-color:rgb(211, 211, 211);
+    padding:15px;
+    margin: auto;
+    width:40%;
+    /* height:60px; */
+    font-weight:bold;
+    font-size:30px;
+}
+
+
+.subscription-description > h1{
+    color:rgb(48, 160, 20);
+    padding: 10px auto;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: underline;
+    font-size:25px;
+}
+
+.subscription-item__plan{
+    background-color:darkslategray;
+    text-align:center;
+    padding:16px;
+    margin:8px;
+    width:28%;
+    display: inline-block;
+    vertical-align: middle;
+    /* border:3px solid rgb(200, 201, 201); */
+}
+
+.subscription-item__plan--highlighted{
+    color: rgb(255, 255, 255);
+    background-color:rgb(7, 7, 61);
+    box-shadow: 3px 3px 3px rgba(7, 7, 61, 0.651);
+}
+
+.recommended-title{
+    color:rgb(7, 7, 61);
+    background-color:#d2d2d2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(19, 19, 131, 0.3);
+}
+
+
+.subscription-item__plan--title{
+    color:#d2d2d2;
+}
+
+.subscription-item__plan--price{
+    color:#289094;;
+}
+
+.subscription-item__plan--highlighted .subscription-item__plan--title{
+    color:#dde6e6;
+}
+
+.subscription-item__plan--highlighted .subscription-item__plan--price{
+    color:#289094;
+}
+
+.subcription-plan__features{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subcription-plan__features li{
+    margin: 10px;
+}
+
+.button-property{
+    background-color:#d2d2d2;
+    color:#040924;
+    padding: 10px;
+    border: 1.5px solid #040924;
+    border-radius: 8px;
+    font:inherit;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.button-property:hover,
+.button-property:active{
+    /* background-color:#299c0c; */
+    background-color:#040924;
+    color:white;
+}
+
+.button-property:focus{
+    outline:none;
+}
+
+
+/*
+=============================================================================================
+                    Subscription Product Card CSS Design
+=============================================================================================
+*/
+
+
+
+/*
+=============================================================================================
+                    Subscription Site Packages CSS Design
+=============================================================================================
+*/
+
+.site-package__features{
+    color: rgb(38, 75, 145);
+    background-color:#d2d2d2;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+    width: 100%;
+}
+
+.site-package__features--image{
+    background-color: #179c9c;
+    height: 160px;
+    width: 160px;
+    border-radius:50%;
+    margin: 20px auto;
+    border: 2px solid #22254d;
+}
+
+div.site-package__features--image{
+    background-image: url(../img/person-image-3.jpg);
+    /* background-repeat: no-repeat;
+    background-origin: cover; */
+    background-size: 180px;
+}
+
+.site-package__features--title{
+    margin-bottom:50px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.site-package__features--list{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+/* .site-package__features--list__items{
+    width: 100%;
+    margin: 0 30px;
+} */
+
+.features-list__description{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 30px;
+}
+
+/*
+=============================================================================================
+                    Subscription Site Packages CSS Design
+=============================================================================================
+*/
+
+
+
+
+/*
+=============================================================================================
+                    Main Footer Section CSS Design
+=============================================================================================
+*/
+
+.main-footer{
+    background-color: #22254d;
+    margin-top: 26px;
+    padding: 25px;
+}
+
+.main-footer__links{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0px 16px;
+    font-size:18px;
+}
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover{
+    color:#c1c2cc;
+}
+
+/*
+=============================================================================================
+                    Main Footer Section CSS Design
+=============================================================================================
+*/
