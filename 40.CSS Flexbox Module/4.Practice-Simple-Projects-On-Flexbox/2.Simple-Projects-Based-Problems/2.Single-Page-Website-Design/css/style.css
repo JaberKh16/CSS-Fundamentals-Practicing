@@ -21,25 +21,35 @@ body{
 */
 
 .header-area{
-    padding:25px;
+    padding: 25px;
 }
 
 .header-container{
     width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
     vertical-align: middle;
 }
 
 .logo-content a{
     color:#2e2f80;
-    font-size:30px;
-    font-weight:bold;
-    text-decoration:none;
-    text-transform: uppercase;
+    /* font-size:30px;
+    font-weight:bold; */
+    /* text-decoration:none; */
+    /* text-transform: uppercase; */
     font-family: 'Poppins';
-    background:radial-gradient(#f3d2d2, #d2d4d2, #343257 );
-    padding: 10px;
-    border-radius: 35%;
+    /* background:radial-gradient(#f3d2d2, #d2d4d2, #343257 ); */
+    /* background: url("../img/logo.jpeg") no-repeat; */
+    padding: 0px 10px;
+    /* border-radius: 35%; */
+}
+
+
+.logo-content a img{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 10%;
+    left: -40%;
 }
 
 .navigational-menu__items li{
@@ -63,15 +73,21 @@ body{
 }
 
 .navigational-menu__items li >a{
-    margin-left:28px;
+    margin-left:20px;
     font-size:20px;
+    height: 30px;
     /* transition: all 1s; */
 }
+
+.navigational-menu__items li a i{
+    padding: 0px 10px;
+}
+
 
 .navigational-menu__items li > a:hover{
     color: #4b299b;
     border-bottom: 3px solid rgb(14, 54, 114);
-    padding: 5px;
+    padding: 10px;
     /* background-color: #2326b8; */
 }
 
@@ -90,7 +106,7 @@ body{
 .banner-image > img{
     width: 94%;
     height: 450px;
-    margin: 0 20px;
+    margin: 10px 20px;
     border: 3px solid #161414;
     padding: 5px;
     border-radius: calc(5px);
@@ -113,7 +129,8 @@ body{
 
 .about-title{
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .about-title h4{
@@ -212,6 +229,7 @@ body{
     padding: 10px;
     /* width: 50%; */
     background-color:#a5a5afe7;
+    border-radius: 15px 15px;
 }
 
 .single-service h4{
@@ -236,6 +254,14 @@ body{
     border: 2px solid blue;
 }
 
+
+.single-service .btn:hover{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #164b0f;
+}
+
 .services-type img{
     /* margin: 10px; */
     width: 100%;
@@ -250,7 +276,8 @@ body{
     border-radius: 5px;
     border: 2px solid #343257;
     outline: none;
-    margin-top: calc(30px);
+    margin-top: calc(10px);
+    margin-bottom: calc(10px);
     width: 200px;
     height: 40px;
     font-size: 18px;

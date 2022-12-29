@@ -9,7 +9,7 @@ h2{
 }
 
 /* horizontal wraping */
-.parent-container{
+.flex-container{
     border: 5px solid;
     display:flex;
     /* display:inline-flex; */
@@ -30,7 +30,7 @@ h2{
     justify-content:center;
 }
 
-.child-flex-item{
+.flex-items{
     color:gainsboro;
     font-size:1.5rem;
     padding:1rem;
